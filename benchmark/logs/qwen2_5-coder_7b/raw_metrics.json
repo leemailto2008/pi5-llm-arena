@@ -1,0 +1,130 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "overall_avg_eval_tps": 2.77,
+  "overall_avg_prompt_tps": 80.2,
+  "overall_avg_ttft_s": 1.744,
+  "peak_temp_c": 58.2,
+  "peak_ram_gib": 5.23,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 72.375,
+          "gen_tps": 2.76,
+          "prompt_tokens": 50,
+          "prompt_eval_duration_s": 4.096,
+          "prompt_tps": 12.21,
+          "ttft_s": 4.096,
+          "start_temp_c": 49.4,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 6.6,
+          "ram_used_gib": 5.2
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 72.112,
+          "gen_tps": 2.77,
+          "prompt_tokens": 50,
+          "prompt_eval_duration_s": 0.367,
+          "prompt_tps": 136.39,
+          "ttft_s": 0.367,
+          "start_temp_c": 53.2,
+          "end_temp_c": 58.2,
+          "delta_temp_c": 5.0,
+          "ram_used_gib": 5.2
+        }
+      ],
+      "avg_eval_tps": 2.76,
+      "avg_prompt_tps": 74.3,
+      "avg_ttft_s": 2.232,
+      "avg_delta_temp_c": 5.8,
+      "sample_response": "In an operating system, a process is a program in execution. It is a complete, independent unit of work that is managed by the operating system. Each process has its own memory space, which means that one process cannot directly access the memory of another process. This isolation is enforced by the operating system's memory management system.\n\nA thread, on the other hand, is a lightweight sub-process within a process. Threads share the same memory space as other threads in the same process. This means that threads can access and modify the same data, which can lead to issues such as race conditions if not properly managed.\n\nHere's a concrete example to illustrate the difference:\n\nSuppose you have a program that needs to perform a complex calculation. This program can be designed as a single process with a single thread. However, if the calculation is too complex to be handled by a single thread, the program can be designed as a single process with multiple threads. Each thread can handle a different part of the calculation,"
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 72.09,
+          "gen_tps": 2.77,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 2.668,
+          "prompt_tps": 21.37,
+          "ttft_s": 2.668,
+          "start_temp_c": 0.0,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 56.0,
+          "ram_used_gib": 5.19
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 72.501,
+          "gen_tps": 2.76,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 0.374,
+          "prompt_tps": 152.5,
+          "ttft_s": 0.374,
+          "start_temp_c": 52.7,
+          "end_temp_c": 57.6,
+          "delta_temp_c": 4.9,
+          "ram_used_gib": 5.2
+        }
+      ],
+      "avg_eval_tps": 2.76,
+      "avg_prompt_tps": 86.94,
+      "avg_ttft_s": 1.521,
+      "avg_delta_temp_c": 30.45,
+      "sample_response": "```python\nfrom typing import List, Tuple\n\ndef two_sum(nums: List[int], target: int) -> Tuple[int, int]:\n    \"\"\"\n    Finds two indices in the list 'nums' such that the numbers at those indices add up to 'target'.\n    \n    Args:\n    nums (List[int]): A list of integers.\n    target (int): The target sum to find within the list.\n    \n    Returns:\n    Tuple[int, int]: A tuple containing the indices of the two numbers that add up to the target.\n    \n    Raises:\n    ValueError: If no two numbers add up to the target.\n    \"\"\"\n    # Dictionary to store the difference and its index\n    num_dict = {}\n    \n    # Iterate over the list\n    for i, num in enumerate(nums):\n        # Calculate the difference needed to reach the target\n        difference = target - num\n        \n        # Check if the difference is already in the dictionary\n        if difference in num_dict:\n            # If"
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 124,
+          "eval_duration_s": 44.556,
+          "gen_tps": 2.78,
+          "prompt_tokens": 51,
+          "prompt_eval_duration_s": 2.596,
+          "prompt_tps": 19.65,
+          "ttft_s": 2.596,
+          "start_temp_c": 0.0,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 56.5,
+          "ram_used_gib": 5.2
+        },
+        {
+          "run": 2,
+          "eval_tokens": 124,
+          "eval_duration_s": 44.416,
+          "gen_tps": 2.79,
+          "prompt_tokens": 51,
+          "prompt_eval_duration_s": 0.367,
+          "prompt_tps": 139.06,
+          "ttft_s": 0.367,
+          "start_temp_c": 53.8,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 2.7,
+          "ram_used_gib": 5.23
+        }
+      ],
+      "avg_eval_tps": 2.79,
+      "avg_prompt_tps": 79.36,
+      "avg_ttft_s": 1.482,
+      "avg_delta_temp_c": 29.6,
+      "sample_response": "- **Enhanced Performance**: The ARM Cortex-A76 microarchitecture introduces a 25% increase in performance compared to its predecessor, Cortex-A75, by optimizing the CPU core design for better efficiency and speed.\n- **Improved Power Efficiency**: With a focus on power management, Cortex-A76 reduces power consumption by up to 40% under heavy workloads, making it ideal for battery-powered devices and extending device life.\n- **Advanced Security Features**: The microarchitecture includes enhanced security features such as TrustZone, which provides a secure execution environment, protecting against unauthorized access and ensuring data integrity."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+=== Starting Benchmark for qwen2.5-coder:7b at 2026-09-07 18:54:39.719927 ===
+
+[+] Ensuring model is present in Ollama: qwen2.5-coder:7b...
+    [Run 1/2] Gen Speed: 2.76 tok/s | Prompt Speed: 12.21 tok/s | TTFT: 4.096s | Temp: 56.0°C | RAM: 5.2 GiB
+    [Run 2/2] Gen Speed: 2.77 tok/s | Prompt Speed: 136.39 tok/s | TTFT: 0.367s | Temp: 58.2°C | RAM: 5.2 GiB
+    [Run 1/2] Gen Speed: 2.77 tok/s | Prompt Speed: 21.37 tok/s | TTFT: 2.668s | Temp: 56.0°C | RAM: 5.19 GiB
+    [Run 2/2] Gen Speed: 2.76 tok/s | Prompt Speed: 152.50 tok/s | TTFT: 0.374s | Temp: 57.6°C | RAM: 5.2 GiB
+    [Run 1/2] Gen Speed: 2.78 tok/s | Prompt Speed: 19.65 tok/s | TTFT: 2.596s | Temp: 56.5°C | RAM: 5.2 GiB
+    [Run 2/2] Gen Speed: 2.79 tok/s | Prompt Speed: 139.06 tok/s | TTFT: 0.367s | Temp: 56.5°C | RAM: 5.23 GiB

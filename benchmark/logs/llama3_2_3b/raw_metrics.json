@@ -1,0 +1,130 @@
+{
+  "model": "llama3.2:3b",
+  "overall_avg_eval_tps": 5.92,
+  "overall_avg_prompt_tps": 164.1,
+  "overall_avg_ttft_s": 0.629,
+  "peak_temp_c": 56.5,
+  "peak_ram_gib": 3.39,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.7,
+          "gen_tps": 5.93,
+          "prompt_tokens": 46,
+          "prompt_eval_duration_s": 1.398,
+          "prompt_tps": 32.91,
+          "ttft_s": 1.398,
+          "start_temp_c": 46.6,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 9.9,
+          "ram_used_gib": 3.28
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.69,
+          "gen_tps": 5.94,
+          "prompt_tokens": 46,
+          "prompt_eval_duration_s": 0.175,
+          "prompt_tps": 262.93,
+          "ttft_s": 0.175,
+          "start_temp_c": 51.6,
+          "end_temp_c": 55.4,
+          "delta_temp_c": 3.8,
+          "ram_used_gib": 3.31
+        }
+      ],
+      "avg_eval_tps": 5.94,
+      "avg_prompt_tps": 147.92,
+      "avg_ttft_s": 0.786,
+      "avg_delta_temp_c": 6.85,
+      "sample_response": "In operating systems, both processes and threads are used to execute multiple tasks concurrently, but they differ in their approach, characteristics, and usage.\n\n**Process**\n\nA process is an independent unit of execution that runs in its own memory space. Each process has its own program counter, stack, and memory space. When a process is created, the operating system allocates a separate memory space for it, which is known as a process image. The process image includes the program code, data, and stack.\n\nHere's an example:\n\nImagine you're working on a project that involves writing a report. You open a word processing application, and the operating system creates a new process for the application. This process has its own memory space, where the word processing application can store its data, such as the report text. When you save the report, the operating system saves the entire process image, including the memory space, to disk.\n\n**Thread**\n\nA thread is a lightweight process that shares the same memory space as"
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.916,
+          "gen_tps": 5.9,
+          "prompt_tokens": 53,
+          "prompt_eval_duration_s": 1.004,
+          "prompt_tps": 52.77,
+          "ttft_s": 1.004,
+          "start_temp_c": 52.1,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 3.32
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.923,
+          "gen_tps": 5.9,
+          "prompt_tokens": 53,
+          "prompt_eval_duration_s": 0.172,
+          "prompt_tps": 308.22,
+          "ttft_s": 0.172,
+          "start_temp_c": 51.0,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 3.32
+        }
+      ],
+      "avg_eval_tps": 5.9,
+      "avg_prompt_tps": 180.5,
+      "avg_ttft_s": 0.588,
+      "avg_delta_temp_c": 4.95,
+      "sample_response": "def two_sum(nums: list[int], target: int) -> list[int]:\n    \"\"\"\n    Returns the indices of the two numbers in the list that add up to the target.\n\n    Args:\n    - nums (list[int]): A list of integers.\n    - target (int): The target sum.\n\n    Returns:\n    - list[int]: A list containing the indices of the two numbers that add up to the target.\n    \"\"\"\n    num_dict = {}  # Initialize an empty dictionary to store the numbers and their indices.\n    \n    for i, num in enumerate(nums):  # Iterate over the list with the index and value.\n        complement = target - num  # Calculate the complement of the current number.\n        \n        if complement in num_dict:  # Check if the complement is already in the dictionary.\n            return [num_dict[complement], i]  # If it is, return the indices of the complement and the current number.\n        \n        num_dict[num] = i"
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 150,
+          "eval_duration_s": 25.279,
+          "gen_tps": 5.93,
+          "prompt_tokens": 46,
+          "prompt_eval_duration_s": 0.86,
+          "prompt_tps": 53.49,
+          "ttft_s": 0.86,
+          "start_temp_c": 51.0,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 3.32
+        },
+        {
+          "run": 2,
+          "eval_tokens": 150,
+          "eval_duration_s": 25.28,
+          "gen_tps": 5.93,
+          "prompt_tokens": 46,
+          "prompt_eval_duration_s": 0.168,
+          "prompt_tps": 274.28,
+          "ttft_s": 0.168,
+          "start_temp_c": 52.7,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 3.8,
+          "ram_used_gib": 3.39
+        }
+      ],
+      "avg_eval_tps": 5.93,
+      "avg_prompt_tps": 163.88,
+      "avg_ttft_s": 0.514,
+      "avg_delta_temp_c": 4.65,
+      "sample_response": "Here are three concise bullet points summarizing the key architectural improvements of ARM Cortex-A76 microarchitecture:\n\n• **Increased Cores and Threads**: The Cortex-A76 features up to 8 cores and 8 threads, providing improved multithreading capabilities and increased processing power.\n\n• **Improved Power Management**: The Cortex-A76 introduces a new power management system, which includes a more efficient clock gating mechanism and a dynamic voltage and frequency scaling (DVFS) system, allowing for better power efficiency and reduced heat generation.\n\n• **Enhanced Security Features**: The Cortex-A76 includes enhanced security features, such as a secure boot mechanism, a secure storage mechanism, and a hardware-based implementation of the ARM TrustZone, providing improved protection against malware and other security threats"
+    }
+  ]
+}
