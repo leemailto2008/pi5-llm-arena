@@ -1,0 +1,9 @@
+=== Starting Benchmark for deepseek-r1:1.5b at 2026-09-07 17:46:22.582005 ===
+
+[+] Ensuring model is present in Ollama: deepseek-r1:1.5b...
+    [Run 1/2] Gen Speed: 11.56 tok/s | Prompt Speed: 66.69 tok/s | TTFT: 0.360s | Temp: 52.7°C | RAM: 1.81 GiB
+    [Run 2/2] Gen Speed: 11.52 tok/s | Prompt Speed: 264.11 tok/s | TTFT: 0.091s | Temp: 54.9°C | RAM: 1.82 GiB
+    [Run 1/2] Gen Speed: 11.50 tok/s | Prompt Speed: 70.41 tok/s | TTFT: 0.440s | Temp: 55.4°C | RAM: 1.83 GiB
+    [Run 2/2] Gen Speed: 11.45 tok/s | Prompt Speed: 343.65 tok/s | TTFT: 0.090s | Temp: 56.5°C | RAM: 1.83 GiB
+    [Run 1/2] Gen Speed: 11.62 tok/s | Prompt Speed: 64.43 tok/s | TTFT: 0.388s | Temp: 54.9°C | RAM: 1.84 GiB
+    [Run 2/2] Gen Speed: 11.56 tok/s | Prompt Speed: 289.23 tok/s | TTFT: 0.086s | Temp: 55.4°C | RAM: 1.83 GiB

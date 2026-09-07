@@ -1,0 +1,791 @@
+{
+  "timestamp": "2026-09-07 17:46:22",
+  "hardware": {
+    "soc": "Broadcom BCM2712 4x ARM Cortex-A76 @ 2.40GHz",
+    "memory": "16GB LPDDR4X (15.8 GiB usable)",
+    "cooling": "PWM Active Cooler",
+    "governor": "performance"
+  },
+  "models": {
+    "deepseek-r1:1.5b": {
+      "model": "deepseek-r1:1.5b",
+      "overall_avg_eval_tps": 11.54,
+      "overall_avg_prompt_tps": 183.09,
+      "overall_avg_ttft_s": 0.243,
+      "peak_temp_c": 56.5,
+      "peak_ram_gib": 1.84,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 17.308,
+              "gen_tps": 11.56,
+              "prompt_tokens": 24,
+              "prompt_eval_duration_s": 0.36,
+              "prompt_tps": 66.69,
+              "ttft_s": 0.36,
+              "start_temp_c": 46.6,
+              "end_temp_c": 52.7,
+              "delta_temp_c": 6.1,
+              "ram_used_gib": 1.81
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 17.359,
+              "gen_tps": 11.52,
+              "prompt_tokens": 24,
+              "prompt_eval_duration_s": 0.091,
+              "prompt_tps": 264.11,
+              "ttft_s": 0.091,
+              "start_temp_c": 50.5,
+              "end_temp_c": 54.9,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 1.82
+            }
+          ],
+          "avg_eval_tps": 11.54,
+          "avg_prompt_tps": 165.4,
+          "avg_ttft_s": 0.225,
+          "avg_delta_temp_c": 5.25,
+          "sample_response": ""
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 17.385,
+              "gen_tps": 11.5,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 0.44,
+              "prompt_tps": 70.41,
+              "ttft_s": 0.44,
+              "start_temp_c": 51.0,
+              "end_temp_c": 55.4,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 1.83
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 17.469,
+              "gen_tps": 11.45,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 0.09,
+              "prompt_tps": 343.65,
+              "ttft_s": 0.09,
+              "start_temp_c": 51.0,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 1.83
+            }
+          ],
+          "avg_eval_tps": 11.47,
+          "avg_prompt_tps": 207.03,
+          "avg_ttft_s": 0.265,
+          "avg_delta_temp_c": 4.95,
+          "sample_response": ""
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 150,
+              "eval_duration_s": 12.906,
+              "gen_tps": 11.62,
+              "prompt_tokens": 25,
+              "prompt_eval_duration_s": 0.388,
+              "prompt_tps": 64.43,
+              "ttft_s": 0.388,
+              "start_temp_c": 52.7,
+              "end_temp_c": 54.9,
+              "delta_temp_c": 2.2,
+              "ram_used_gib": 1.84
+            },
+            {
+              "run": 2,
+              "eval_tokens": 150,
+              "eval_duration_s": 12.975,
+              "gen_tps": 11.56,
+              "prompt_tokens": 25,
+              "prompt_eval_duration_s": 0.086,
+              "prompt_tps": 289.23,
+              "ttft_s": 0.086,
+              "start_temp_c": 51.6,
+              "end_temp_c": 55.4,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 1.83
+            }
+          ],
+          "avg_eval_tps": 11.59,
+          "avg_prompt_tps": 176.83,
+          "avg_ttft_s": 0.237,
+          "avg_delta_temp_c": 3.0,
+          "sample_response": ""
+        }
+      ]
+    },
+    "llama3.2:3b": {
+      "model": "llama3.2:3b",
+      "overall_avg_eval_tps": 5.92,
+      "overall_avg_prompt_tps": 164.1,
+      "overall_avg_ttft_s": 0.629,
+      "peak_temp_c": 56.5,
+      "peak_ram_gib": 3.39,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.7,
+              "gen_tps": 5.93,
+              "prompt_tokens": 46,
+              "prompt_eval_duration_s": 1.398,
+              "prompt_tps": 32.91,
+              "ttft_s": 1.398,
+              "start_temp_c": 46.6,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 9.9,
+              "ram_used_gib": 3.28
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.69,
+              "gen_tps": 5.94,
+              "prompt_tokens": 46,
+              "prompt_eval_duration_s": 0.175,
+              "prompt_tps": 262.93,
+              "ttft_s": 0.175,
+              "start_temp_c": 51.6,
+              "end_temp_c": 55.4,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 3.31
+            }
+          ],
+          "avg_eval_tps": 5.94,
+          "avg_prompt_tps": 147.92,
+          "avg_ttft_s": 0.786,
+          "avg_delta_temp_c": 6.85,
+          "sample_response": "In operating systems, both processes and threads are used to execute multiple tasks concurrently, but they differ in their approach, characteristics, and usage.\n\n**Process**\n\nA process is an independent unit of execution that runs in its own memory space. Each process has its own program counter, stack, and memory space. When a process is created, the operating system allocates a separate memory space for it, which is known as a process image. The process image includes the program code, data, and stack.\n\nHere's an example:\n\nImagine you're working on a project that involves writing a report. You open a word processing application, and the operating system creates a new process for the application. This process has its own memory space, where the word processing application can store its data, such as the report text. When you save the report, the operating system saves the entire process image, including the memory space, to disk.\n\n**Thread**\n\nA thread is a lightweight process that shares the same memory space as"
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.916,
+              "gen_tps": 5.9,
+              "prompt_tokens": 53,
+              "prompt_eval_duration_s": 1.004,
+              "prompt_tps": 52.77,
+              "ttft_s": 1.004,
+              "start_temp_c": 52.1,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 3.32
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.923,
+              "gen_tps": 5.9,
+              "prompt_tokens": 53,
+              "prompt_eval_duration_s": 0.172,
+              "prompt_tps": 308.22,
+              "ttft_s": 0.172,
+              "start_temp_c": 51.0,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 3.32
+            }
+          ],
+          "avg_eval_tps": 5.9,
+          "avg_prompt_tps": 180.5,
+          "avg_ttft_s": 0.588,
+          "avg_delta_temp_c": 4.95,
+          "sample_response": "def two_sum(nums: list[int], target: int) -> list[int]:\n    \"\"\"\n    Returns the indices of the two numbers in the list that add up to the target.\n\n    Args:\n    - nums (list[int]): A list of integers.\n    - target (int): The target sum.\n\n    Returns:\n    - list[int]: A list containing the indices of the two numbers that add up to the target.\n    \"\"\"\n    num_dict = {}  # Initialize an empty dictionary to store the numbers and their indices.\n    \n    for i, num in enumerate(nums):  # Iterate over the list with the index and value.\n        complement = target - num  # Calculate the complement of the current number.\n        \n        if complement in num_dict:  # Check if the complement is already in the dictionary.\n            return [num_dict[complement], i]  # If it is, return the indices of the complement and the current number.\n        \n        num_dict[num] = i"
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 150,
+              "eval_duration_s": 25.279,
+              "gen_tps": 5.93,
+              "prompt_tokens": 46,
+              "prompt_eval_duration_s": 0.86,
+              "prompt_tps": 53.49,
+              "ttft_s": 0.86,
+              "start_temp_c": 51.0,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 3.32
+            },
+            {
+              "run": 2,
+              "eval_tokens": 150,
+              "eval_duration_s": 25.28,
+              "gen_tps": 5.93,
+              "prompt_tokens": 46,
+              "prompt_eval_duration_s": 0.168,
+              "prompt_tps": 274.28,
+              "ttft_s": 0.168,
+              "start_temp_c": 52.7,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 3.39
+            }
+          ],
+          "avg_eval_tps": 5.93,
+          "avg_prompt_tps": 163.88,
+          "avg_ttft_s": 0.514,
+          "avg_delta_temp_c": 4.65,
+          "sample_response": "Here are three concise bullet points summarizing the key architectural improvements of ARM Cortex-A76 microarchitecture:\n\n• **Increased Cores and Threads**: The Cortex-A76 features up to 8 cores and 8 threads, providing improved multithreading capabilities and increased processing power.\n\n• **Improved Power Management**: The Cortex-A76 introduces a new power management system, which includes a more efficient clock gating mechanism and a dynamic voltage and frequency scaling (DVFS) system, allowing for better power efficiency and reduced heat generation.\n\n• **Enhanced Security Features**: The Cortex-A76 includes enhanced security features, such as a secure boot mechanism, a secure storage mechanism, and a hardware-based implementation of the ARM TrustZone, providing improved protection against malware and other security threats"
+        }
+      ]
+    },
+    "qwen2.5:3b": {
+      "model": "qwen2.5:3b",
+      "overall_avg_eval_tps": 6.02,
+      "overall_avg_prompt_tps": 178.39,
+      "overall_avg_ttft_s": 0.661,
+      "peak_temp_c": 56.5,
+      "peak_ram_gib": 2.87,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.355,
+              "gen_tps": 6.0,
+              "prompt_tokens": 50,
+              "prompt_eval_duration_s": 1.507,
+              "prompt_tps": 33.17,
+              "ttft_s": 1.507,
+              "start_temp_c": 47.2,
+              "end_temp_c": 55.4,
+              "delta_temp_c": 8.2,
+              "ram_used_gib": 2.83
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.237,
+              "gen_tps": 6.02,
+              "prompt_tokens": 50,
+              "prompt_eval_duration_s": 0.177,
+              "prompt_tps": 282.07,
+              "ttft_s": 0.177,
+              "start_temp_c": 50.5,
+              "end_temp_c": 0.0,
+              "delta_temp_c": -50.5,
+              "ram_used_gib": 0.65
+            }
+          ],
+          "avg_eval_tps": 6.01,
+          "avg_prompt_tps": 157.62,
+          "avg_ttft_s": 0.842,
+          "avg_delta_temp_c": -21.15,
+          "sample_response": "In an operating system, a process and a thread are both units of execution, but they differ in several aspects, including their isolation, memory management, and the way they interact with the operating system.\n\n### Process\nA process is the basic unit of execution in an operating system. It is an instance of a program that is being executed. Each process has its own memory space, which includes its own stack, heap, and code segment. Processes are isolated from each other in terms of memory, meaning that one process cannot directly access another process's memory. This isolation is enforced by the operating system, which manages memory allocation and ensures that each process has its own private memory space.\n\n### Thread\nA thread is a lighter-weight unit of execution within a process. It is a sequence of instructions that can be scheduled for execution. Threads share the same memory space as the process they belong to, which means that threads within the same process can directly access each other's memory. Threads are often used to improve"
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.258,
+              "gen_tps": 6.01,
+              "prompt_tokens": 57,
+              "prompt_eval_duration_s": 1.0,
+              "prompt_tps": 56.98,
+              "ttft_s": 1.0,
+              "start_temp_c": 48.8,
+              "end_temp_c": 54.3,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 2.83
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 33.19,
+              "gen_tps": 6.03,
+              "prompt_tokens": 57,
+              "prompt_eval_duration_s": 0.169,
+              "prompt_tps": 337.9,
+              "ttft_s": 0.169,
+              "start_temp_c": 52.1,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 2.87
+            }
+          ],
+          "avg_eval_tps": 6.02,
+          "avg_prompt_tps": 197.44,
+          "avg_ttft_s": 0.585,
+          "avg_delta_temp_c": 4.95,
+          "sample_response": "Certainly! Below is a Python function that solves the Two Sum problem in O(N) time complexity using a dictionary. The function is efficient and includes type hints and docstrings for clarity.\n\n```python\nfrom typing import List, Dict\n\ndef two_sum(numbers: List[int], target: int) -> List[int]:\n    \"\"\"\n    Finds two numbers in the given list 'numbers' that add up to the 'target'.\n    The function uses a dictionary to achieve O(N) time complexity.\n\n    Parameters:\n    numbers (List[int]): A list of integers where we need to find the two numbers.\n    target (int): The target sum we are looking for.\n\n    Returns:\n    List[int]: A list containing the indices of the two numbers that add up to the target.\n               If no such pair exists, returns [-1, -1].\n\n    Example:\n    >>> two_sum([2, 7, 11, 15], 9)\n    [0, 1"
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 122,
+              "eval_duration_s": 20.178,
+              "gen_tps": 6.05,
+              "prompt_tokens": 51,
+              "prompt_eval_duration_s": 0.944,
+              "prompt_tps": 54.03,
+              "ttft_s": 0.944,
+              "start_temp_c": 50.5,
+              "end_temp_c": 56.0,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 2.83
+            },
+            {
+              "run": 2,
+              "eval_tokens": 122,
+              "eval_duration_s": 20.197,
+              "gen_tps": 6.04,
+              "prompt_tokens": 51,
+              "prompt_eval_duration_s": 0.167,
+              "prompt_tps": 306.17,
+              "ttft_s": 0.167,
+              "start_temp_c": 52.7,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 2.85
+            }
+          ],
+          "avg_eval_tps": 6.04,
+          "avg_prompt_tps": 180.1,
+          "avg_ttft_s": 0.555,
+          "avg_delta_temp_c": 4.65,
+          "sample_response": "1. Enhanced Performance: ARM Cortex-A76 incorporates a more advanced out-of-order execution engine, which allows for more efficient and concurrent processing of instructions, leading to improved performance.\n\n2. Increased Efficiency: The microarchitecture includes optimizations for energy efficiency, such as a more efficient branch prediction mechanism and a smaller, more efficient instruction set, which helps in reducing power consumption without compromising performance.\n\n3. Advanced Memory Management: Cortex-A76 features an improved memory management unit (MMU) that supports larger virtual address spaces, enabling more efficient memory management and better support for modern memory technologies like LPDDR5."
+        }
+      ]
+    },
+    "qwen2.5-coder:7b": {
+      "model": "qwen2.5-coder:7b",
+      "overall_avg_eval_tps": 2.77,
+      "overall_avg_prompt_tps": 80.2,
+      "overall_avg_ttft_s": 1.744,
+      "peak_temp_c": 58.2,
+      "peak_ram_gib": 5.23,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 72.375,
+              "gen_tps": 2.76,
+              "prompt_tokens": 50,
+              "prompt_eval_duration_s": 4.096,
+              "prompt_tps": 12.21,
+              "ttft_s": 4.096,
+              "start_temp_c": 49.4,
+              "end_temp_c": 56.0,
+              "delta_temp_c": 6.6,
+              "ram_used_gib": 5.2
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 72.112,
+              "gen_tps": 2.77,
+              "prompt_tokens": 50,
+              "prompt_eval_duration_s": 0.367,
+              "prompt_tps": 136.39,
+              "ttft_s": 0.367,
+              "start_temp_c": 53.2,
+              "end_temp_c": 58.2,
+              "delta_temp_c": 5.0,
+              "ram_used_gib": 5.2
+            }
+          ],
+          "avg_eval_tps": 2.76,
+          "avg_prompt_tps": 74.3,
+          "avg_ttft_s": 2.232,
+          "avg_delta_temp_c": 5.8,
+          "sample_response": "In an operating system, a process is a program in execution. It is a complete, independent unit of work that is managed by the operating system. Each process has its own memory space, which means that one process cannot directly access the memory of another process. This isolation is enforced by the operating system's memory management system.\n\nA thread, on the other hand, is a lightweight sub-process within a process. Threads share the same memory space as other threads in the same process. This means that threads can access and modify the same data, which can lead to issues such as race conditions if not properly managed.\n\nHere's a concrete example to illustrate the difference:\n\nSuppose you have a program that needs to perform a complex calculation. This program can be designed as a single process with a single thread. However, if the calculation is too complex to be handled by a single thread, the program can be designed as a single process with multiple threads. Each thread can handle a different part of the calculation,"
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 72.09,
+              "gen_tps": 2.77,
+              "prompt_tokens": 57,
+              "prompt_eval_duration_s": 2.668,
+              "prompt_tps": 21.37,
+              "ttft_s": 2.668,
+              "start_temp_c": 0.0,
+              "end_temp_c": 56.0,
+              "delta_temp_c": 56.0,
+              "ram_used_gib": 5.19
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 72.501,
+              "gen_tps": 2.76,
+              "prompt_tokens": 57,
+              "prompt_eval_duration_s": 0.374,
+              "prompt_tps": 152.5,
+              "ttft_s": 0.374,
+              "start_temp_c": 52.7,
+              "end_temp_c": 57.6,
+              "delta_temp_c": 4.9,
+              "ram_used_gib": 5.2
+            }
+          ],
+          "avg_eval_tps": 2.76,
+          "avg_prompt_tps": 86.94,
+          "avg_ttft_s": 1.521,
+          "avg_delta_temp_c": 30.45,
+          "sample_response": "```python\nfrom typing import List, Tuple\n\ndef two_sum(nums: List[int], target: int) -> Tuple[int, int]:\n    \"\"\"\n    Finds two indices in the list 'nums' such that the numbers at those indices add up to 'target'.\n    \n    Args:\n    nums (List[int]): A list of integers.\n    target (int): The target sum to find within the list.\n    \n    Returns:\n    Tuple[int, int]: A tuple containing the indices of the two numbers that add up to the target.\n    \n    Raises:\n    ValueError: If no two numbers add up to the target.\n    \"\"\"\n    # Dictionary to store the difference and its index\n    num_dict = {}\n    \n    # Iterate over the list\n    for i, num in enumerate(nums):\n        # Calculate the difference needed to reach the target\n        difference = target - num\n        \n        # Check if the difference is already in the dictionary\n        if difference in num_dict:\n            # If"
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 124,
+              "eval_duration_s": 44.556,
+              "gen_tps": 2.78,
+              "prompt_tokens": 51,
+              "prompt_eval_duration_s": 2.596,
+              "prompt_tps": 19.65,
+              "ttft_s": 2.596,
+              "start_temp_c": 0.0,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 56.5,
+              "ram_used_gib": 5.2
+            },
+            {
+              "run": 2,
+              "eval_tokens": 124,
+              "eval_duration_s": 44.416,
+              "gen_tps": 2.79,
+              "prompt_tokens": 51,
+              "prompt_eval_duration_s": 0.367,
+              "prompt_tps": 139.06,
+              "ttft_s": 0.367,
+              "start_temp_c": 53.8,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 2.7,
+              "ram_used_gib": 5.23
+            }
+          ],
+          "avg_eval_tps": 2.79,
+          "avg_prompt_tps": 79.36,
+          "avg_ttft_s": 1.482,
+          "avg_delta_temp_c": 29.6,
+          "sample_response": "- **Enhanced Performance**: The ARM Cortex-A76 microarchitecture introduces a 25% increase in performance compared to its predecessor, Cortex-A75, by optimizing the CPU core design for better efficiency and speed.\n- **Improved Power Efficiency**: With a focus on power management, Cortex-A76 reduces power consumption by up to 40% under heavy workloads, making it ideal for battery-powered devices and extending device life.\n- **Advanced Security Features**: The microarchitecture includes enhanced security features such as TrustZone, which provides a secure execution environment, protecting against unauthorized access and ensuring data integrity."
+        }
+      ]
+    },
+    "deepseek-r1:7b": {
+      "model": "deepseek-r1:7b",
+      "overall_avg_eval_tps": 2.53,
+      "overall_avg_prompt_tps": 38.29,
+      "overall_avg_ttft_s": 1.384,
+      "peak_temp_c": 57.1,
+      "peak_ram_gib": 5.23,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 79.224,
+              "gen_tps": 2.52,
+              "prompt_tokens": 24,
+              "prompt_eval_duration_s": 2.006,
+              "prompt_tps": 11.96,
+              "ttft_s": 2.006,
+              "start_temp_c": 50.5,
+              "end_temp_c": 56.0,
+              "delta_temp_c": 5.5,
+              "ram_used_gib": 5.19
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 79.345,
+              "gen_tps": 2.52,
+              "prompt_tokens": 24,
+              "prompt_eval_duration_s": 0.429,
+              "prompt_tps": 55.97,
+              "ttft_s": 0.429,
+              "start_temp_c": 53.2,
+              "end_temp_c": 57.1,
+              "delta_temp_c": 3.9,
+              "ram_used_gib": 5.19
+            }
+          ],
+          "avg_eval_tps": 2.52,
+          "avg_prompt_tps": 33.97,
+          "avg_ttft_s": 1.217,
+          "avg_delta_temp_c": 4.7,
+          "sample_response": ""
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 79.455,
+              "gen_tps": 2.52,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 2.574,
+              "prompt_tps": 12.04,
+              "ttft_s": 2.574,
+              "start_temp_c": 51.0,
+              "end_temp_c": 54.9,
+              "delta_temp_c": 3.9,
+              "ram_used_gib": 5.2
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 79.237,
+              "gen_tps": 2.52,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 0.406,
+              "prompt_tps": 76.4,
+              "ttft_s": 0.406,
+              "start_temp_c": 52.7,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 5.21
+            }
+          ],
+          "avg_eval_tps": 2.52,
+          "avg_prompt_tps": 44.22,
+          "avg_ttft_s": 1.49,
+          "avg_delta_temp_c": 3.85,
+          "sample_response": ""
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 150,
+              "eval_duration_s": 59.256,
+              "gen_tps": 2.53,
+              "prompt_tokens": 25,
+              "prompt_eval_duration_s": 2.492,
+              "prompt_tps": 10.03,
+              "ttft_s": 2.492,
+              "start_temp_c": 52.7,
+              "end_temp_c": 57.1,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 5.21
+            },
+            {
+              "run": 2,
+              "eval_tokens": 150,
+              "eval_duration_s": 59.205,
+              "gen_tps": 2.53,
+              "prompt_tokens": 25,
+              "prompt_eval_duration_s": 0.395,
+              "prompt_tps": 63.35,
+              "ttft_s": 0.395,
+              "start_temp_c": 52.1,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 4.4,
+              "ram_used_gib": 5.23
+            }
+          ],
+          "avg_eval_tps": 2.53,
+          "avg_prompt_tps": 36.69,
+          "avg_ttft_s": 1.444,
+          "avg_delta_temp_c": 4.4,
+          "sample_response": ""
+        }
+      ]
+    },
+    "llama3.1:8b": {
+      "model": "llama3.1:8b",
+      "overall_avg_eval_tps": 2.46,
+      "overall_avg_prompt_tps": 46.62,
+      "overall_avg_ttft_s": 1.62,
+      "peak_temp_c": 57.6,
+      "peak_ram_gib": 5.76,
+      "categories": [
+        {
+          "category": "Reasoning & Logic",
+          "name": "Process vs Thread",
+          "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 81.661,
+              "gen_tps": 2.45,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 3.109,
+              "prompt_tps": 9.97,
+              "ttft_s": 3.109,
+              "start_temp_c": 50.5,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 6.0,
+              "ram_used_gib": 5.71
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 81.466,
+              "gen_tps": 2.46,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 0.412,
+              "prompt_tps": 75.24,
+              "ttft_s": 0.412,
+              "start_temp_c": 52.7,
+              "end_temp_c": 56.0,
+              "delta_temp_c": 3.3,
+              "ram_used_gib": 5.73
+            }
+          ],
+          "avg_eval_tps": 2.46,
+          "avg_prompt_tps": 42.6,
+          "avg_ttft_s": 1.76,
+          "avg_delta_temp_c": 4.65,
+          "sample_response": "**Process vs Thread: A Key Concept in Operating Systems**\n===========================================================\n\nIn operating systems, a process and a thread are two fundamental concepts that are often confused with each other. Understanding the difference between them is crucial for designing and developing efficient and secure software systems.\n\n**Process**\n-----------\n\nA process is an independent program that is executed by the operating system. Each process has its own:\n\n*   **Memory space**: Each process has its own virtual address space, which is a separate region of memory allocated by the operating system.\n*   **Resources**: Each process has its own set of resources, such as open files, network connections, and system calls.\n*   **Program counter**: Each process has its own program counter, which keeps track of the current instruction being executed.\n\n**Thread**\n---------\n\nA thread is a lightweight process that shares the same memory space as its parent process. Threads are used to improve the responsiveness and efficiency of a program by allowing multiple tasks to run concurrently.\n\n**Key differences**\n"
+        },
+        {
+          "category": "Coding & Algorithm",
+          "name": "Two Sum Algorithm",
+          "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 200,
+              "eval_duration_s": 81.484,
+              "gen_tps": 2.45,
+              "prompt_tokens": 38,
+              "prompt_eval_duration_s": 2.863,
+              "prompt_tps": 13.27,
+              "ttft_s": 2.863,
+              "start_temp_c": 51.6,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 4.9,
+              "ram_used_gib": 5.72
+            },
+            {
+              "run": 2,
+              "eval_tokens": 200,
+              "eval_duration_s": 81.409,
+              "gen_tps": 2.46,
+              "prompt_tokens": 38,
+              "prompt_eval_duration_s": 0.411,
+              "prompt_tps": 92.44,
+              "ttft_s": 0.411,
+              "start_temp_c": 52.7,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 3.8,
+              "ram_used_gib": 5.75
+            }
+          ],
+          "avg_eval_tps": 2.46,
+          "avg_prompt_tps": 52.85,
+          "avg_ttft_s": 1.637,
+          "avg_delta_temp_c": 4.35,
+          "sample_response": "**Two Sum Problem Solution**\n================================\n\nThe Two Sum problem is a classic problem in algorithm design. Given an array of integers and a target sum, find two elements in the array that add up to the target sum.\n\n**Solution**\n------------\n\n```python\nfrom typing import List, Dict\n\ndef two_sum(nums: List[int], target: int) -> List[int]:\n    \"\"\"\n    Returns the indices of the two elements in the array that add up to the target sum.\n\n    Args:\n        nums (List[int]): The input array of integers.\n        target (int): The target sum.\n\n    Returns:\n        List[int]: The indices of the two elements that add up to the target sum.\n    \"\"\"\n    num_dict: Dict[int, int] = {}\n    for i, num in enumerate(nums):\n        complement = target - num\n        if complement in num_dict:\n            return [num_dict[complement], i]\n        num_dict[num] = i\n    return []\n``"
+        },
+        {
+          "category": "Quick Fact & Summary",
+          "name": "ARM Architecture Summary",
+          "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+          "runs": [
+            {
+              "run": 1,
+              "eval_tokens": 138,
+              "eval_duration_s": 55.842,
+              "gen_tps": 2.47,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 2.519,
+              "prompt_tps": 12.31,
+              "ttft_s": 2.519,
+              "start_temp_c": 52.7,
+              "end_temp_c": 57.6,
+              "delta_temp_c": 4.9,
+              "ram_used_gib": 5.74
+            },
+            {
+              "run": 2,
+              "eval_tokens": 138,
+              "eval_duration_s": 55.971,
+              "gen_tps": 2.47,
+              "prompt_tokens": 31,
+              "prompt_eval_duration_s": 0.405,
+              "prompt_tps": 76.5,
+              "ttft_s": 0.405,
+              "start_temp_c": 51.6,
+              "end_temp_c": 56.5,
+              "delta_temp_c": 4.9,
+              "ram_used_gib": 5.76
+            }
+          ],
+          "avg_eval_tps": 2.47,
+          "avg_prompt_tps": 44.41,
+          "avg_ttft_s": 1.462,
+          "avg_delta_temp_c": 4.9,
+          "sample_response": "Here are the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points:\n\n• **Improved Out-of-Order Execution (OoOE)**: The Cortex-A76 introduces a more efficient OoOE engine, allowing for better instruction-level parallelism and improved performance in complex workloads.\n\n• **Enhanced Branch Predictor**: The Cortex-A76 features a more accurate and efficient branch predictor, reducing misprediction penalties and improving overall performance in applications with complex branching patterns.\n\n• **Increased L1 Cache Bandwidth**: The Cortex-A76 increases the L1 cache bandwidth by 50%, allowing for faster access to frequently accessed data and improving performance in memory-bound workloads."
+        }
+      ]
+    }
+  }
+}

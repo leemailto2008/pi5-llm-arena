@@ -1,0 +1,130 @@
+{
+  "model": "deepseek-r1:1.5b",
+  "overall_avg_eval_tps": 11.54,
+  "overall_avg_prompt_tps": 183.09,
+  "overall_avg_ttft_s": 0.243,
+  "peak_temp_c": 56.5,
+  "peak_ram_gib": 1.84,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 17.308,
+          "gen_tps": 11.56,
+          "prompt_tokens": 24,
+          "prompt_eval_duration_s": 0.36,
+          "prompt_tps": 66.69,
+          "ttft_s": 0.36,
+          "start_temp_c": 46.6,
+          "end_temp_c": 52.7,
+          "delta_temp_c": 6.1,
+          "ram_used_gib": 1.81
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 17.359,
+          "gen_tps": 11.52,
+          "prompt_tokens": 24,
+          "prompt_eval_duration_s": 0.091,
+          "prompt_tps": 264.11,
+          "ttft_s": 0.091,
+          "start_temp_c": 50.5,
+          "end_temp_c": 54.9,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 1.82
+        }
+      ],
+      "avg_eval_tps": 11.54,
+      "avg_prompt_tps": 165.4,
+      "avg_ttft_s": 0.225,
+      "avg_delta_temp_c": 5.25,
+      "sample_response": ""
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 17.385,
+          "gen_tps": 11.5,
+          "prompt_tokens": 31,
+          "prompt_eval_duration_s": 0.44,
+          "prompt_tps": 70.41,
+          "ttft_s": 0.44,
+          "start_temp_c": 51.0,
+          "end_temp_c": 55.4,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 1.83
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 17.469,
+          "gen_tps": 11.45,
+          "prompt_tokens": 31,
+          "prompt_eval_duration_s": 0.09,
+          "prompt_tps": 343.65,
+          "ttft_s": 0.09,
+          "start_temp_c": 51.0,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 1.83
+        }
+      ],
+      "avg_eval_tps": 11.47,
+      "avg_prompt_tps": 207.03,
+      "avg_ttft_s": 0.265,
+      "avg_delta_temp_c": 4.95,
+      "sample_response": ""
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 150,
+          "eval_duration_s": 12.906,
+          "gen_tps": 11.62,
+          "prompt_tokens": 25,
+          "prompt_eval_duration_s": 0.388,
+          "prompt_tps": 64.43,
+          "ttft_s": 0.388,
+          "start_temp_c": 52.7,
+          "end_temp_c": 54.9,
+          "delta_temp_c": 2.2,
+          "ram_used_gib": 1.84
+        },
+        {
+          "run": 2,
+          "eval_tokens": 150,
+          "eval_duration_s": 12.975,
+          "gen_tps": 11.56,
+          "prompt_tokens": 25,
+          "prompt_eval_duration_s": 0.086,
+          "prompt_tps": 289.23,
+          "ttft_s": 0.086,
+          "start_temp_c": 51.6,
+          "end_temp_c": 55.4,
+          "delta_temp_c": 3.8,
+          "ram_used_gib": 1.83
+        }
+      ],
+      "avg_eval_tps": 11.59,
+      "avg_prompt_tps": 176.83,
+      "avg_ttft_s": 0.237,
+      "avg_delta_temp_c": 3.0,
+      "sample_response": ""
+    }
+  ]
+}

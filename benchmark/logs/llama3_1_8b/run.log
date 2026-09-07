@@ -1,0 +1,9 @@
+=== Starting Benchmark for llama3.1:8b at 2026-09-07 21:30:50.122611 ===
+
+[+] Ensuring model is present in Ollama: llama3.1:8b...
+    [Run 1/2] Gen Speed: 2.45 tok/s | Prompt Speed: 9.97 tok/s | TTFT: 3.109s | Temp: 56.5°C | RAM: 5.71 GiB
+    [Run 2/2] Gen Speed: 2.46 tok/s | Prompt Speed: 75.24 tok/s | TTFT: 0.412s | Temp: 56.0°C | RAM: 5.73 GiB
+    [Run 1/2] Gen Speed: 2.45 tok/s | Prompt Speed: 13.27 tok/s | TTFT: 2.863s | Temp: 56.5°C | RAM: 5.72 GiB
+    [Run 2/2] Gen Speed: 2.46 tok/s | Prompt Speed: 92.44 tok/s | TTFT: 0.411s | Temp: 56.5°C | RAM: 5.75 GiB
+    [Run 1/2] Gen Speed: 2.47 tok/s | Prompt Speed: 12.31 tok/s | TTFT: 2.519s | Temp: 57.6°C | RAM: 5.74 GiB
+    [Run 2/2] Gen Speed: 2.47 tok/s | Prompt Speed: 76.50 tok/s | TTFT: 0.405s | Temp: 56.5°C | RAM: 5.76 GiB

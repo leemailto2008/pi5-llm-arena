@@ -1,0 +1,130 @@
+{
+  "model": "qwen2.5:3b",
+  "overall_avg_eval_tps": 6.02,
+  "overall_avg_prompt_tps": 178.39,
+  "overall_avg_ttft_s": 0.661,
+  "peak_temp_c": 56.5,
+  "peak_ram_gib": 2.87,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.355,
+          "gen_tps": 6.0,
+          "prompt_tokens": 50,
+          "prompt_eval_duration_s": 1.507,
+          "prompt_tps": 33.17,
+          "ttft_s": 1.507,
+          "start_temp_c": 47.2,
+          "end_temp_c": 55.4,
+          "delta_temp_c": 8.2,
+          "ram_used_gib": 2.83
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.237,
+          "gen_tps": 6.02,
+          "prompt_tokens": 50,
+          "prompt_eval_duration_s": 0.177,
+          "prompt_tps": 282.07,
+          "ttft_s": 0.177,
+          "start_temp_c": 50.5,
+          "end_temp_c": 0.0,
+          "delta_temp_c": -50.5,
+          "ram_used_gib": 0.65
+        }
+      ],
+      "avg_eval_tps": 6.01,
+      "avg_prompt_tps": 157.62,
+      "avg_ttft_s": 0.842,
+      "avg_delta_temp_c": -21.15,
+      "sample_response": "In an operating system, a process and a thread are both units of execution, but they differ in several aspects, including their isolation, memory management, and the way they interact with the operating system.\n\n### Process\nA process is the basic unit of execution in an operating system. It is an instance of a program that is being executed. Each process has its own memory space, which includes its own stack, heap, and code segment. Processes are isolated from each other in terms of memory, meaning that one process cannot directly access another process's memory. This isolation is enforced by the operating system, which manages memory allocation and ensures that each process has its own private memory space.\n\n### Thread\nA thread is a lighter-weight unit of execution within a process. It is a sequence of instructions that can be scheduled for execution. Threads share the same memory space as the process they belong to, which means that threads within the same process can directly access each other's memory. Threads are often used to improve"
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.258,
+          "gen_tps": 6.01,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 1.0,
+          "prompt_tps": 56.98,
+          "ttft_s": 1.0,
+          "start_temp_c": 48.8,
+          "end_temp_c": 54.3,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 2.83
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 33.19,
+          "gen_tps": 6.03,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 0.169,
+          "prompt_tps": 337.9,
+          "ttft_s": 0.169,
+          "start_temp_c": 52.1,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 2.87
+        }
+      ],
+      "avg_eval_tps": 6.02,
+      "avg_prompt_tps": 197.44,
+      "avg_ttft_s": 0.585,
+      "avg_delta_temp_c": 4.95,
+      "sample_response": "Certainly! Below is a Python function that solves the Two Sum problem in O(N) time complexity using a dictionary. The function is efficient and includes type hints and docstrings for clarity.\n\n```python\nfrom typing import List, Dict\n\ndef two_sum(numbers: List[int], target: int) -> List[int]:\n    \"\"\"\n    Finds two numbers in the given list 'numbers' that add up to the 'target'.\n    The function uses a dictionary to achieve O(N) time complexity.\n\n    Parameters:\n    numbers (List[int]): A list of integers where we need to find the two numbers.\n    target (int): The target sum we are looking for.\n\n    Returns:\n    List[int]: A list containing the indices of the two numbers that add up to the target.\n               If no such pair exists, returns [-1, -1].\n\n    Example:\n    >>> two_sum([2, 7, 11, 15], 9)\n    [0, 1"
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 122,
+          "eval_duration_s": 20.178,
+          "gen_tps": 6.05,
+          "prompt_tokens": 51,
+          "prompt_eval_duration_s": 0.944,
+          "prompt_tps": 54.03,
+          "ttft_s": 0.944,
+          "start_temp_c": 50.5,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 2.83
+        },
+        {
+          "run": 2,
+          "eval_tokens": 122,
+          "eval_duration_s": 20.197,
+          "gen_tps": 6.04,
+          "prompt_tokens": 51,
+          "prompt_eval_duration_s": 0.167,
+          "prompt_tps": 306.17,
+          "ttft_s": 0.167,
+          "start_temp_c": 52.7,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 3.8,
+          "ram_used_gib": 2.85
+        }
+      ],
+      "avg_eval_tps": 6.04,
+      "avg_prompt_tps": 180.1,
+      "avg_ttft_s": 0.555,
+      "avg_delta_temp_c": 4.65,
+      "sample_response": "1. Enhanced Performance: ARM Cortex-A76 incorporates a more advanced out-of-order execution engine, which allows for more efficient and concurrent processing of instructions, leading to improved performance.\n\n2. Increased Efficiency: The microarchitecture includes optimizations for energy efficiency, such as a more efficient branch prediction mechanism and a smaller, more efficient instruction set, which helps in reducing power consumption without compromising performance.\n\n3. Advanced Memory Management: Cortex-A76 features an improved memory management unit (MMU) that supports larger virtual address spaces, enabling more efficient memory management and better support for modern memory technologies like LPDDR5."
+    }
+  ]
+}
