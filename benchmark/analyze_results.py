@@ -40,7 +40,7 @@ def generate_plan1_final_report(summary_json_path: str = "benchmark/results/mast
     md.append(f"> **推理引擎 (Engine):** Native Ollama ARM64 (v0.33.3, ARMv8.2-A / ARMv8.6-A NEON & FP16 向量加速)\n\n")
     
     md.append("## 🥇 綜合性能排行榜 (Master Inference Leaderboard)\n")
-    md.append("| 排名 (Rank) | 模型名稱 (Model) | 生成速度 (Gen TPS) | 提示詞評估 (Prompt TPS) | 首字延遲 (TTFT) | 峰值溫度 (Temp) | 記憶體佔用 (RAM) | 即時可用性 (Usability) | 獨立報告 (Report) |")
+    md.append("| 排名<br><sub>(Rank)</sub> | 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞速度<br><sub>(Prompt TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 峰值溫度<br><sub>(Peak Temp)</sub> | 記憶體<br><sub>(RAM)</sub> | 即時可用性<br><sub>(Usability)</sub> | 獨立報告<br><sub>(Report)</sub> |")
     md.append("| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |")
     
     for idx, (mname, mstats) in enumerate(sorted_models, 1):
@@ -65,7 +65,7 @@ def generate_plan1_final_report(summary_json_path: str = "benchmark/results/mast
     categories = ["Reasoning & Logic", "Coding & Algorithm", "Quick Fact & Summary"]
     for cat in categories:
         md.append(f"### 🔹 任務類別：`{cat}`\n")
-        md.append("| 模型名稱 (Model) | 生成速度 (tok/s) | 提示詞預填充 (tok/s) | 首字延遲 (TTFT) | 溫升變化 (Δ Temp) |")
+        md.append("| 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞預填充<br><sub>(Prefill TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 溫升變化<br><sub>(Δ Temp)</sub> |")
         md.append("| :--- | :---: | :---: | :---: | :---: |")
         
         for mname, mstats in sorted_models:
