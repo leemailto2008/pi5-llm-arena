@@ -1,0 +1,15 @@
+=== Plan 2 Native llama.cpp Benchmark: qwen2.5:3b ===
+Timestamp: 2026-09-08T11:24:31.524210
+GGUF Blob: /home/pi/.ollama/models/blobs/sha256-5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6
+Size: 1.8 GB, Quant: Q4_K_M
+
+[Standard Interaction (P512 / G128)]
+  - Prompt Prefill Speed: 28.89 ± 0.02 tokens/s
+  - Token Generation Speed: 6.01 ± 0.02 tokens/s
+  - Current Temp: 55.4°C | RAM Used: 0.6 GiB
+
+[Long Context & Code Generation (P1024 / G256)]
+  - Prompt Prefill Speed: 27.97 ± 0.00 tokens/s
+  - Token Generation Speed: 6.01 ± 0.01 tokens/s
+  - Current Temp: 56.5°C | RAM Used: 0.56 GiB
+
