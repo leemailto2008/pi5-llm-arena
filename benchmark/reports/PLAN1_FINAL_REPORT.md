@@ -11,7 +11,7 @@
 
 ## 🥇 綜合性能排行榜 (Master Inference Leaderboard)
 
-| 排名 (Rank) | 模型名稱 (Model) | 生成速度 (Gen TPS) | 提示詞評估 (Prompt TPS) | 首字延遲 (TTFT) | 峰值溫度 (Temp) | 記憶體佔用 (RAM) | 即時可用性 (Usability) | 獨立報告 (Report) |
+| 排名<br><sub>(Rank)</sub> | 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞速度<br><sub>(Prompt TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 峰值溫度<br><sub>(Peak Temp)</sub> | 記憶體<br><sub>(RAM)</sub> | 即時可用性<br><sub>(Usability)</sub> | 獨立報告<br><sub>(Report)</sub> |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 🥇 冠軍 | `deepseek-r1:1.5b` | **11.54 tok/s** | 183.09 tok/s | 0.243s | 56.5°C | 1.84 GB | ⚡ 極速即時 (>10 tps) | [deepseek-r1_1_5b_REPORT.md](./deepseek-r1_1_5b_REPORT.md) |
 | 🥈 亞軍 | `qwen2.5:3b` | **6.02 tok/s** | 178.39 tok/s | 0.661s | 56.5°C | 2.87 GB | 🟢 實用流暢 (>5 tps) | [qwen2_5_3b_REPORT.md](./qwen2_5_3b_REPORT.md) |
@@ -26,7 +26,7 @@
 
 ### 🔹 任務類別：`Reasoning & Logic`
 
-| 模型名稱 (Model) | 生成速度 (tok/s) | 提示詞預填充 (tok/s) | 首字延遲 (TTFT) | 溫升變化 (Δ Temp) |
+| 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞預填充<br><sub>(Prefill TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 溫升變化<br><sub>(Δ Temp)</sub> |
 | :--- | :---: | :---: | :---: | :---: |
 | `deepseek-r1:1.5b` | **11.54** | 165.40 | 0.225s | +5.2°C |
 | `qwen2.5:3b` | **6.01** | 157.62 | 0.842s | +-21.1°C |
@@ -38,7 +38,7 @@
 
 ### 🔹 任務類別：`Coding & Algorithm`
 
-| 模型名稱 (Model) | 生成速度 (tok/s) | 提示詞預填充 (tok/s) | 首字延遲 (TTFT) | 溫升變化 (Δ Temp) |
+| 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞預填充<br><sub>(Prefill TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 溫升變化<br><sub>(Δ Temp)</sub> |
 | :--- | :---: | :---: | :---: | :---: |
 | `deepseek-r1:1.5b` | **11.47** | 207.03 | 0.265s | +5.0°C |
 | `qwen2.5:3b` | **6.02** | 197.44 | 0.585s | +5.0°C |
@@ -50,7 +50,7 @@
 
 ### 🔹 任務類別：`Quick Fact & Summary`
 
-| 模型名稱 (Model) | 生成速度 (tok/s) | 提示詞預填充 (tok/s) | 首字延遲 (TTFT) | 溫升變化 (Δ Temp) |
+| 模型名稱<br><sub>(Model)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞預填充<br><sub>(Prefill TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 溫升變化<br><sub>(Δ Temp)</sub> |
 | :--- | :---: | :---: | :---: | :---: |
 | `deepseek-r1:1.5b` | **11.59** | 176.83 | 0.237s | +3.0°C |
 | `qwen2.5:3b` | **6.04** | 180.10 | 0.555s | +4.7°C |

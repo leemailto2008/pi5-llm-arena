@@ -13,7 +13,7 @@
 
 以下為在 **Raspberry Pi 5 (BCM2712 4-Core Cortex-A76 @ 2.40 GHz, 16GB LPDDR4X)** 鎖頻效能模式下執行的標準化多維度實測結果：
 
-| 排名 (Rank) | 評測模型 (Model) | 參數量 | 生成速度 (Gen TPS) | 提示詞速度 (Prompt TPS) | 首字延遲 (TTFT) | 峰值溫度 | 記憶體佔用 | 獨立評測報告 (Report) |
+| 排名<br><sub>(Rank)</sub> | 評測模型<br><sub>(Model)</sub> | 參數量<br><sub>(Params)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞速度<br><sub>(Prompt TPS)</sub> | 首字延遲<br><sub>(TTFT)</sub> | 峰值溫度<br><sub>(Peak Temp)</sub> | 記憶體<br><sub>(RAM)</sub> | 獨立報告<br><sub>(Report)</sub> |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 🥇 **冠軍** | `deepseek-r1:1.5b` | 1.5B | **11.54 tok/s** | 183.09 tok/s | **0.243s** | 56.5°C | 1.84 GB | [📄 1.5B 報告](./benchmark/reports/deepseek-r1_1_5b_REPORT.md) |
 | 🥈 **亞軍** | `qwen2.5:3b` | 3B | **6.02 tok/s** | 178.39 tok/s | **0.661s** | 56.5°C | 2.87 GB | [📄 Qwen 3B 報告](./benchmark/reports/qwen2_5_3b_REPORT.md) |
