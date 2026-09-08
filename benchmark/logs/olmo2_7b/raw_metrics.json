@@ -1,0 +1,130 @@
+{
+  "model": "olmo2:7b",
+  "overall_avg_eval_tps": 2.73,
+  "overall_avg_prompt_tps": 94.08,
+  "overall_avg_ttft_s": 1.549,
+  "peak_temp_c": 57.6,
+  "peak_ram_gib": 12.37,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 74.221,
+          "gen_tps": 2.69,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 4.041,
+          "prompt_tps": 14.11,
+          "ttft_s": 4.041,
+          "start_temp_c": 51.0,
+          "end_temp_c": 57.6,
+          "delta_temp_c": 6.6,
+          "ram_used_gib": 11.92
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 74.178,
+          "gen_tps": 2.7,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 0.364,
+          "prompt_tps": 156.78,
+          "ttft_s": 0.364,
+          "start_temp_c": 52.7,
+          "end_temp_c": 57.1,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 12.09
+        }
+      ],
+      "avg_eval_tps": 2.7,
+      "avg_prompt_tps": 85.44,
+      "avg_ttft_s": 2.203,
+      "avg_delta_temp_c": 5.5,
+      "sample_response": "In operating systems, a **process** is an instance of a computer program in execution. It includes all the data and code needed to perform a specific task and represents a functional unit that can be independently managed by the operating system. A process has a unique process ID (PID), and it can have multiple threads. Each thread is a separate path of execution within the process. Threads share the same memory space and resources of the process they belong to, which allows for efficient communication and synchronization between them.\n\nOn the other hand, a **thread** is a lightweight subprocess within a process. It represents a sequence of instructions that can be executed independently within the same process. Threads are more resource-efficient than processes because they share the same memory space and resources of the parent process. This sharing allows for lower overhead and faster context switching compared to processes.\n\n**Example:**\n\nImagine you are working on a document in a word processor. The **process** is the entire instance of the word processor application running on your"
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 74.245,
+          "gen_tps": 2.69,
+          "prompt_tokens": 64,
+          "prompt_eval_duration_s": 2.245,
+          "prompt_tps": 28.51,
+          "ttft_s": 2.245,
+          "start_temp_c": 51.6,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 12.03
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 74.193,
+          "gen_tps": 2.7,
+          "prompt_tokens": 64,
+          "prompt_eval_duration_s": 0.359,
+          "prompt_tps": 178.04,
+          "ttft_s": 0.359,
+          "start_temp_c": 51.6,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 4.9,
+          "ram_used_gib": 12.2
+        }
+      ],
+      "avg_eval_tps": 2.7,
+      "avg_prompt_tps": 103.27,
+      "avg_ttft_s": 1.302,
+      "avg_delta_temp_c": 4.65,
+      "sample_response": "```python\ndef two_sum(nums: list[int], target: int) -> tuple[int, int]:\n    \"\"\"\n    Finds two numbers in the list that sum up to the target.\n\n    Args:\n        nums (list): A list of integers.\n        target (int): The target sum.\n\n    Returns:\n        tuple: A tuple containing two numbers (num1, num2) such that num1 + num2 == target.\n    \"\"\"\n    nums_dict = {num: i for i, num in enumerate(nums)}\n    result = None\n\n    for key, value in nums_dict.items():\n        complement = target - value\n        if complement in nums_dict:\n            result = (value, nums_dict[complement])\n            break\n\n    return result\n```\n\nThis function first creates a dictionary `nums_dict` where the keys are the indices of the elements in `nums`, and the values are the elements themselves. Then, it iterates through the dictionary to find a key `value"
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 61,
+          "eval_duration_s": 21.834,
+          "gen_tps": 2.79,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 1.925,
+          "prompt_tps": 29.61,
+          "ttft_s": 1.925,
+          "start_temp_c": 53.2,
+          "end_temp_c": 57.1,
+          "delta_temp_c": 3.9,
+          "ram_used_gib": 12.33
+        },
+        {
+          "run": 2,
+          "eval_tokens": 61,
+          "eval_duration_s": 21.892,
+          "gen_tps": 2.79,
+          "prompt_tokens": 57,
+          "prompt_eval_duration_s": 0.362,
+          "prompt_tps": 157.45,
+          "ttft_s": 0.362,
+          "start_temp_c": 52.1,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 3.9,
+          "ram_used_gib": 12.37
+        }
+      ],
+      "avg_eval_tps": 2.79,
+      "avg_prompt_tps": 93.53,
+      "avg_ttft_s": 1.143,
+      "avg_delta_temp_c": 3.9,
+      "sample_response": "- Enhanced single-thread performance through improved out-of-order execution and larger 64-entry decode window.\n- Improved power efficiency with a more dynamic voltage scaling and clocking mechanism, including a new 6-stage pipeline.\n- Increased instruction throughput with a larger 128-bit wide integer and floating-point execution units."
+    }
+  ]
+}

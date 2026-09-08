@@ -1,9 +1,5 @@
-=== Starting Benchmark for deepseek-r1:7b at 2026-09-07 20:10:47.439292 ===
+=== Starting Benchmark for deepseek-r1:7b at 2026-09-08 23:13:07.447116 ===
 
 [+] Ensuring model is present in Ollama: deepseek-r1:7b...
-    [Run 1/2] Gen Speed: 2.52 tok/s | Prompt Speed: 11.96 tok/s | TTFT: 2.006s | Temp: 56.0°C | RAM: 5.19 GiB
-    [Run 2/2] Gen Speed: 2.52 tok/s | Prompt Speed: 55.97 tok/s | TTFT: 0.429s | Temp: 57.1°C | RAM: 5.19 GiB
-    [Run 1/2] Gen Speed: 2.52 tok/s | Prompt Speed: 12.04 tok/s | TTFT: 2.574s | Temp: 54.9°C | RAM: 5.2 GiB
-    [Run 2/2] Gen Speed: 2.52 tok/s | Prompt Speed: 76.40 tok/s | TTFT: 0.406s | Temp: 56.5°C | RAM: 5.21 GiB
-    [Run 1/2] Gen Speed: 2.53 tok/s | Prompt Speed: 10.03 tok/s | TTFT: 2.492s | Temp: 57.1°C | RAM: 5.21 GiB
-    [Run 2/2] Gen Speed: 2.53 tok/s | Prompt Speed: 63.35 tok/s | TTFT: 0.395s | Temp: 56.5°C | RAM: 5.23 GiB
+
+[!] Failed to pull deepseek-r1:7b: Invalid URL '192.168.50.228/api/pull': No scheme supplied. Perhaps you meant https://192.168.50.228/api/pull?

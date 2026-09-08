@@ -1,9 +1,5 @@
-=== Starting Benchmark for llama3.2:3b at 2026-09-07 17:48:20.280219 ===
+=== Starting Benchmark for llama3.2:3b at 2026-09-08 23:13:07.444004 ===
 
 [+] Ensuring model is present in Ollama: llama3.2:3b...
-    [Run 1/2] Gen Speed: 5.93 tok/s | Prompt Speed: 32.91 tok/s | TTFT: 1.398s | Temp: 56.5°C | RAM: 3.28 GiB
-    [Run 2/2] Gen Speed: 5.94 tok/s | Prompt Speed: 262.93 tok/s | TTFT: 0.175s | Temp: 55.4°C | RAM: 3.31 GiB
-    [Run 1/2] Gen Speed: 5.90 tok/s | Prompt Speed: 52.77 tok/s | TTFT: 1.004s | Temp: 56.5°C | RAM: 3.32 GiB
-    [Run 2/2] Gen Speed: 5.90 tok/s | Prompt Speed: 308.22 tok/s | TTFT: 0.172s | Temp: 56.5°C | RAM: 3.32 GiB
-    [Run 1/2] Gen Speed: 5.93 tok/s | Prompt Speed: 53.49 tok/s | TTFT: 0.860s | Temp: 56.5°C | RAM: 3.32 GiB
-    [Run 2/2] Gen Speed: 5.93 tok/s | Prompt Speed: 274.28 tok/s | TTFT: 0.168s | Temp: 56.5°C | RAM: 3.39 GiB
+
+[!] Failed to pull llama3.2:3b: Invalid URL '192.168.50.228/api/pull': No scheme supplied. Perhaps you meant https://192.168.50.228/api/pull?

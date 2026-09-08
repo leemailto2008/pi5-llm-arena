@@ -57,6 +57,34 @@ MODEL_MAPPINGS = {
         "size_gb": 4.58,
         "params": "8.03B",
         "quant": "Q4_K_M"
+    },
+    "olmo-3:7b": {
+        "tag": "olmo-3:7b",
+        "blob_path": "/home/pi/.ollama/models/blobs/sha256-3b6b58718a439291ffc1953067c4cc16587a23a88b00492c491c3d0787fb206c",
+        "size_gb": 4.16,
+        "params": "6.95B",
+        "quant": "Q4_K_M"
+    },
+    "olmo2:7b": {
+        "tag": "olmo2:7b",
+        "blob_path": "/home/pi/.ollama/models/blobs/sha256-ea89e3927d5ef671159a1359a22cdd418856c4baa2098e665f1c6eed59973968",
+        "size_gb": 4.16,
+        "params": "7.05B",
+        "quant": "Q4_K_M"
+    },
+    "gemma4:e2b": {
+        "tag": "gemma4:e2b",
+        "blob_path": "/home/pi/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448",
+        "size_gb": 6.67,
+        "params": "2.6B Multimodal",
+        "quant": "Q4_K_M"
+    },
+    "gemma4:e4b": {
+        "tag": "gemma4:e4b",
+        "blob_path": "/home/pi/.ollama/models/blobs/sha256-4c27e0f5b5adf02ac956c7322bd2ee7636fe3f45a8512c9aba5385242cb6e09a",
+        "size_gb": 8.95,
+        "params": "4.3B Multimodal",
+        "quant": "Q4_K_M"
     }
 }
 

@@ -1,0 +1,9 @@
+=== Starting Benchmark for gemma4:e2b at 2026-09-08 23:30:13.545080 ===
+
+[+] Ensuring model is present in Ollama: gemma4:e2b...
+    [Run 1/2] Gen Speed: 7.50 tok/s | Prompt Speed: 43.65 tok/s | TTFT: 0.825s | Temp: 55.4°C | RAM: 8.55 GiB
+    [Run 2/2] Gen Speed: 7.67 tok/s | Prompt Speed: 141.19 tok/s | TTFT: 0.255s | Temp: 57.6°C | RAM: 8.54 GiB
+    [Run 1/2] Gen Speed: 7.55 tok/s | Prompt Speed: 43.95 tok/s | TTFT: 1.024s | Temp: 57.6°C | RAM: 8.55 GiB
+    [Run 2/2] Gen Speed: 7.69 tok/s | Prompt Speed: 178.47 tok/s | TTFT: 0.252s | Temp: 58.2°C | RAM: 8.54 GiB
+    [Run 1/2] Gen Speed: 7.58 tok/s | Prompt Speed: 42.44 tok/s | TTFT: 0.895s | Temp: 57.6°C | RAM: 8.55 GiB
+    [Run 2/2] Gen Speed: 7.66 tok/s | Prompt Speed: 145.28 tok/s | TTFT: 0.262s | Temp: 57.1°C | RAM: 8.55 GiB

@@ -1,0 +1,130 @@
+{
+  "model": "gemma4:e4b",
+  "overall_avg_eval_tps": 3.71,
+  "overall_avg_prompt_tps": 47.74,
+  "overall_avg_ttft_s": 1.243,
+  "peak_temp_c": 57.1,
+  "peak_ram_gib": 10.25,
+  "categories": [
+    {
+      "category": "Reasoning & Logic",
+      "name": "Process vs Thread",
+      "prompt": "Explain the difference between process and thread in operating systems. Provide a concrete example and compare memory isolation.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 54.493,
+          "gen_tps": 3.67,
+          "prompt_tokens": 36,
+          "prompt_eval_duration_s": 1.786,
+          "prompt_tps": 20.16,
+          "ttft_s": 1.786,
+          "start_temp_c": 51.6,
+          "end_temp_c": 57.1,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 10.23
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 54.143,
+          "gen_tps": 3.69,
+          "prompt_tokens": 36,
+          "prompt_eval_duration_s": 0.529,
+          "prompt_tps": 68.02,
+          "ttft_s": 0.529,
+          "start_temp_c": 51.0,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 5.5,
+          "ram_used_gib": 10.23
+        }
+      ],
+      "avg_eval_tps": 3.68,
+      "avg_prompt_tps": 44.09,
+      "avg_ttft_s": 1.157,
+      "avg_delta_temp_c": 5.5,
+      "sample_response": "The concepts of **process** and **thread** are fundamental to understanding how modern operating systems manage and execute programs. While both are mechanisms for achieving concurrency, they differ significantly in terms of resource ownership, isolation, and overhead.\n\nHere is a detailed explanation of the differences, followed by a concrete example and a comparison of memory isolation.\n\n---\n\n## 🧠 Core Concepts\n\n### 1. Process (The Container)\n\nA **process** is an independent instance of a running program. It is the operating system's primary unit of resource allocation. When you double-click an application icon, the OS typically creates a new process for that application.\n\n*   **What it owns:** A process owns a dedicated, isolated set of resources, including its own memory address space, file descriptors, and system resources.\n*   **Isolation:** Processes are heavily isolated from one another. If one process crashes, it generally does not affect other processes running on the system.\n*   **"
+    },
+    {
+      "category": "Coding & Algorithm",
+      "name": "Two Sum Algorithm",
+      "prompt": "Write an efficient Python function to solve the Two Sum problem in O(N) time complexity using a dictionary. Include type hints and docstrings.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 200,
+          "eval_duration_s": 54.129,
+          "gen_tps": 3.69,
+          "prompt_tokens": 45,
+          "prompt_eval_duration_s": 2.161,
+          "prompt_tps": 20.82,
+          "ttft_s": 2.161,
+          "start_temp_c": 52.1,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 10.23
+        },
+        {
+          "run": 2,
+          "eval_tokens": 200,
+          "eval_duration_s": 53.592,
+          "gen_tps": 3.73,
+          "prompt_tokens": 45,
+          "prompt_eval_duration_s": 0.522,
+          "prompt_tps": 86.24,
+          "ttft_s": 0.522,
+          "start_temp_c": 52.1,
+          "end_temp_c": 56.5,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 10.25
+        }
+      ],
+      "avg_eval_tps": 3.71,
+      "avg_prompt_tps": 53.53,
+      "avg_ttft_s": 1.341,
+      "avg_delta_temp_c": 4.4,
+      "sample_response": ""
+    },
+    {
+      "category": "Quick Fact & Summary",
+      "name": "ARM Architecture Summary",
+      "prompt": "Summarize the key architectural improvements of ARM Cortex-A76 microarchitecture in 3 concise bullet points.",
+      "runs": [
+        {
+          "run": 1,
+          "eval_tokens": 150,
+          "eval_duration_s": 40.332,
+          "gen_tps": 3.72,
+          "prompt_tokens": 38,
+          "prompt_eval_duration_s": 1.929,
+          "prompt_tps": 19.69,
+          "ttft_s": 1.929,
+          "start_temp_c": 52.7,
+          "end_temp_c": 56.0,
+          "delta_temp_c": 3.3,
+          "ram_used_gib": 10.23
+        },
+        {
+          "run": 2,
+          "eval_tokens": 150,
+          "eval_duration_s": 40.234,
+          "gen_tps": 3.73,
+          "prompt_tokens": 38,
+          "prompt_eval_duration_s": 0.531,
+          "prompt_tps": 71.53,
+          "ttft_s": 0.531,
+          "start_temp_c": 52.7,
+          "end_temp_c": 57.1,
+          "delta_temp_c": 4.4,
+          "ram_used_gib": 10.24
+        }
+      ],
+      "avg_eval_tps": 3.73,
+      "avg_prompt_tps": 45.61,
+      "avg_ttft_s": 1.23,
+      "avg_delta_temp_c": 3.85,
+      "sample_response": ""
+    }
+  ]
+}

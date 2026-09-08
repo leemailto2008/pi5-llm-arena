@@ -3,7 +3,7 @@
 > **評測代號 (Code Name):** Plan 2 Extreme Performance Deep Dive  
 > **目標硬體 (Hardware):** Raspberry Pi 5 16GB (Broadcom BCM2712, 4-Core Cortex-A76 @ 2.4 GHz, LPDDR4X-4267)  
 > **向量加速技術 (Vector Acceleration):** ARM NEON / Dot-Product (`-march=armv8.2-a+fp16+dotprod -mcpu=cortex-a76`)  
-> **評測時間 (Timestamp):** `2026-09-08 12:11:58`  
+> **評測時間 (Timestamp):** `2026-09-08 23:40:13`  
 > **測試模型數 (Models Evaluated):** 6 款全主流模型矩陣 (1.5B ~ 8B)
 
 ---
@@ -20,6 +20,10 @@
 | **`qwen2.5-coder:7b`** | 7.61B (4.36 GB) | **2.76 t/s** | 2.77 t/s | **<span style='color:green;'>-0.36%</span>** | **11.5 t/s** | 0.46 GiB |
 | **`deepseek-r1:7b`** | 7.61B (4.36 GB) | **2.7 t/s** | 2.53 t/s | **<span style='color:green;'>+6.72%</span>** | **11.27 t/s** | 0.44 GiB |
 | **`llama3.1:8b`** | 8.03B (4.58 GB) | **2.46 t/s** | 2.46 t/s | **<span style='color:green;'>0.0%</span>** | **10.54 t/s** | 0.43 GiB |
+| **`olmo-3:7b`** | 6.95B (4.16 GB) | **0.0 t/s** | 2.56 t/s | **<span style='color:green;'>-100.0%</span>** | **0.0 t/s** | 0.53 GiB |
+| **`olmo2:7b`** | 7.05B (4.16 GB) | **2.59 t/s** | 2.73 t/s | **<span style='color:green;'>-5.13%</span>** | **11.57 t/s** | 6.37 GiB |
+| **`gemma4:e2b`** | 2.6B Multimodal (6.67 GB) | **0.0 t/s** | 7.61 t/s | **<span style='color:green;'>-100.0%</span>** | **0.0 t/s** | 6.26 GiB |
+| **`gemma4:e4b`** | 4.3B Multimodal (8.95 GB) | **0.0 t/s** | 3.71 t/s | **<span style='color:green;'>-100.0%</span>** | **0.0 t/s** | 6.24 GiB |
 
 ---
 
@@ -41,6 +45,8 @@
 | **`deepseek-r1:7b`** | Long Context & Code Generation (P1024 / G256) | **11.3 ± 0.01** t/s | **2.75 ± 0.0** t/s | 57.6 °C | 0.43 GiB |
 | **`llama3.1:8b`** | Standard Interaction (P512 / G128) | **10.4 ± 0.02** t/s | **2.34 ± 0.0** t/s | 57.6 °C | 0.41 GiB |
 | **`llama3.1:8b`** | Long Context & Code Generation (P1024 / G256) | **10.69 ± 0.04** t/s | **2.59 ± 0.0** t/s | 56.5 °C | 0.43 GiB |
+| **`olmo2:7b`** | Standard Interaction (P512 / G128) | **11.59 ± 0.23** t/s | **2.55 ± 0.0** t/s | 58.7 °C | 6.37 GiB |
+| **`olmo2:7b`** | Long Context & Code Generation (P1024 / G256) | **11.55 ± 0.03** t/s | **2.63 ± 0.0** t/s | 57.6 °C | 6.19 GiB |
 
 ---
 

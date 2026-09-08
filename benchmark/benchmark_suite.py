@@ -375,9 +375,20 @@ def main():
         if res:
             all_results["models"][model] = res
             
-    # Save overall summary JSON
+    # Load and merge existing summary JSON
     os.makedirs("benchmark/results", exist_ok=True)
     summary_json = os.path.join("benchmark", "results", "master_benchmark_summary.json")
+    if os.path.exists(summary_json):
+        try:
+            with open(summary_json, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+                if "models" in existing_data and isinstance(existing_data["models"], dict):
+                    merged_models = existing_data["models"]
+                    merged_models.update(all_results["models"])
+                    all_results["models"] = merged_models
+        except Exception as e:
+            print(f"[!] Warning reading existing summary: {e}")
+            
     with open(summary_json, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
     print(f"\n[+] Saved master benchmark summary JSON: {summary_json}")

@@ -1,0 +1,9 @@
+=== Starting Benchmark for olmo2:7b at 2026-09-08 23:23:09.658727 ===
+
+[+] Ensuring model is present in Ollama: olmo2:7b...
+    [Run 1/2] Gen Speed: 2.69 tok/s | Prompt Speed: 14.11 tok/s | TTFT: 4.041s | Temp: 57.6°C | RAM: 11.92 GiB
+    [Run 2/2] Gen Speed: 2.70 tok/s | Prompt Speed: 156.78 tok/s | TTFT: 0.364s | Temp: 57.1°C | RAM: 12.09 GiB
+    [Run 1/2] Gen Speed: 2.69 tok/s | Prompt Speed: 28.51 tok/s | TTFT: 2.245s | Temp: 56.0°C | RAM: 12.03 GiB
+    [Run 2/2] Gen Speed: 2.70 tok/s | Prompt Speed: 178.04 tok/s | TTFT: 0.359s | Temp: 56.5°C | RAM: 12.2 GiB
+    [Run 1/2] Gen Speed: 2.79 tok/s | Prompt Speed: 29.61 tok/s | TTFT: 1.925s | Temp: 57.1°C | RAM: 12.33 GiB
+    [Run 2/2] Gen Speed: 2.79 tok/s | Prompt Speed: 157.45 tok/s | TTFT: 0.362s | Temp: 56.0°C | RAM: 12.37 GiB

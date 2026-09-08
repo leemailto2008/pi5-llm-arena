@@ -11,17 +11,47 @@ from datetime import datetime
 from typing import Dict, Any, List
 
 def generate_plan1_final_report(summary_json_path: str = "benchmark/results/master_benchmark_summary.json", output_dir: str = "benchmark/reports"):
-    if not os.path.exists(summary_json_path):
-        print(f"[!] Summary JSON not found at {summary_json_path}")
-        return ""
-        
-    with open(summary_json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        
-    models_data = data.get("models", {})
+    models_data = {}
+    
+    # Load from master summary if exists
+    if os.path.exists(summary_json_path):
+        try:
+            with open(summary_json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                models_data.update(data.get("models", {}))
+        except Exception:
+            pass
+            
+    # Also load from all raw_metrics.json in benchmark/logs
+    for log_dir in glob.glob("benchmark/logs/*"):
+        raw_metrics_file = os.path.join(log_dir, "raw_metrics.json")
+        if os.path.isfile(raw_metrics_file):
+            try:
+                with open(raw_metrics_file, "r", encoding="utf-8") as rf:
+                    rdata = json.load(rf)
+                    mname = rdata.get("model")
+                    if mname:
+                        models_data[mname] = rdata
+            except Exception as e:
+                print(f"[!] Error loading {raw_metrics_file}: {e}")
+                
     if not models_data:
         print("[!] No model results found.")
         return ""
+        
+    # Write back merged master summary
+    merged_summary = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "hardware": {
+            "soc": "Broadcom BCM2712 4x ARM Cortex-A76 @ 2.40GHz",
+            "memory": "16GB LPDDR4X (15.8 GiB usable)",
+            "cooling": "PWM Active Cooler",
+            "governor": "performance"
+        },
+        "models": models_data
+    }
+    with open(summary_json_path, "w", encoding="utf-8") as f:
+        json.dump(merged_summary, f, indent=2, ensure_ascii=False)
         
     # Sort models by overall avg eval TPS descending
     sorted_models = sorted(
