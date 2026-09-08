@@ -20,10 +20,14 @@ import requests
 
 DEFAULT_MODELS = [
     "deepseek-r1:1.5b",
+    "gemma4:e2b",
     "llama3.2:3b",
     "qwen2.5:3b",
+    "gemma4:e4b",
     "qwen2.5-coder:7b",
     "deepseek-r1:7b",
+    "olmo2:7b",
+    "olmo-3:7b",
     "llama3.1:8b",
 ]
 
