@@ -45,6 +45,7 @@
 pi5-llm-arena/
 ├── README.md                           # 專案首頁與 Leaderboard
 ├── plan1.md                            # Plan 1 實施計畫書與評測報告彙整
+├── plan1_cmd.md                        # Plan 1 完整指令集、工作流與問題排除手冊
 ├── plan2.md                            # Native Ollama vs Docker vs llama.cpp 深度架構分析
 ├── requirements.txt                    # Python 相依套件
 ├── benchmark/
