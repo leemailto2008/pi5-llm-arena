@@ -44,7 +44,7 @@ def main():
 > **目標硬體 (Hardware):** Raspberry Pi 5 16GB (Broadcom BCM2712, 4-Core Cortex-A76 @ 2.4 GHz, LPDDR4X-4267)  
 > **向量加速技術 (Vector Acceleration):** ARM NEON / Dot-Product (`-march=armv8.2-a+fp16+dotprod -mcpu=cortex-a76`)  
 > **評測時間 (Timestamp):** `{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}`  
-> **測試模型數 (Models Evaluated):** 6 款全主流模型矩陣 (1.5B ~ 8B)
+> **測試模型數 (Models Evaluated):** 10 款全主流模型矩陣 (1.5B ~ 8B 全覆蓋)
 
 ---
 

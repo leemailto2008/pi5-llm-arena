@@ -37,12 +37,15 @@
 | 排名<br><sub>(Rank)</sub> | 評測模型<br><sub>(Model Tag)</sub> | 參數量 / 檔案<br><sub>(Params / Size)</sub> | 生成速度<br><sub>(Gen TPS)</sub> | 提示詞處理<br><sub>(Prefill TPS)</sub> | 峰值溫度<br><sub>(Peak Temp)</sub> | 實體記憶體<br><sub>(Peak RAM)</sub> | 獨立報告<br><sub>(Report)</sub> |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | 🥇 **冠軍** | `deepseek-r1:1.5b` | 1.78B (1.04 GB) | **12.02 tok/s** | **60.66 tok/s** | 57.1°C | **0.59 GiB** | [📄 1.5B 報告](./benchmark/reports/plan2_deepseek-r1_1_5b_REPORT.md) |
-| 🥈 **亞軍** | `qwen2.5:3b` | 3.09B (1.80 GB) | **6.01 tok/s** | **28.89 tok/s** | 56.5°C | **0.60 GiB** | [📄 Qwen 3B 報告](./benchmark/reports/plan2_qwen2_5_3b_REPORT.md) |
-| 🥉 **季軍** | `llama3.2:3b` | 3.21B (1.88 GB) | **5.71 tok/s** | **27.23 tok/s** | 57.6°C | **0.62 GiB** | [📄 Llama 3B 報告](./benchmark/reports/plan2_llama3_2_3b_REPORT.md) |
-| **#4** | `qwen2.5-coder:7b` | 7.61B (4.36 GB) | **2.76 tok/s** | **11.59 tok/s** | 58.2°C | **0.46 GiB** | [📄 Coder 7B 報告](./benchmark/reports/plan2_qwen2_5-coder_7b_REPORT.md) |
-| **#5** | `deepseek-r1:7b` | 7.61B (4.36 GB) | **2.70 tok/s** | **11.30 tok/s** | 58.7°C | **0.44 GiB** | [📄 R1 7B 報告](./benchmark/reports/plan2_deepseek-r1_7b_REPORT.md) |
-| **#6** | `olmo2:7b` | 7.05B (4.16 GB) | **2.59 tok/s** | **11.59 tok/s** | 58.7°C | **6.37 GiB** | [📄 OLMo2 報告](./benchmark/reports/PLAN2_FINAL_REPORT.md) |
-| **#7** | `llama3.1:8b` | 8.03B (4.58 GB) | **2.46 tok/s** | **10.69 tok/s** | 57.6°C | **0.43 GiB** | [📄 Llama 8B 報告](./benchmark/reports/plan2_llama3_1_8b_REPORT.md) |
+| 🥈 **亞軍** | `gemma4:e2b` | 2.6B (6.67 GB) | **7.04 tok/s** | **45.44 tok/s** | 58.2°C | **3.20 GiB** | [📄 Gemma4 2B 報告](./benchmark/reports/plan2_gemma4_e2b_REPORT.md) |
+| 🥉 **季軍** | `qwen2.5:3b` | 3.09B (1.80 GB) | **6.01 tok/s** | **28.89 tok/s** | 56.5°C | **0.60 GiB** | [📄 Qwen 3B 報告](./benchmark/reports/plan2_qwen2_5_3b_REPORT.md) |
+| **#4** | `llama3.2:3b` | 3.21B (1.88 GB) | **5.71 tok/s** | **27.23 tok/s** | 57.6°C | **0.62 GiB** | [📄 Llama 3B 報告](./benchmark/reports/plan2_llama3_2_3b_REPORT.md) |
+| **#5** | `gemma4:e4b` | 4.3B (8.95 GB) | **3.68 tok/s** | **22.50 tok/s** | 62.1°C | **5.80 GiB** | [📄 Gemma4 4B 報告](./benchmark/reports/plan2_gemma4_e4b_REPORT.md) |
+| **#6** | `qwen2.5-coder:7b` | 7.61B (4.36 GB) | **2.76 tok/s** | **11.59 tok/s** | 58.2°C | **0.46 GiB** | [📄 Coder 7B 報告](./benchmark/reports/plan2_qwen2_5-coder_7b_REPORT.md) |
+| **#7** | `deepseek-r1:7b` | 7.61B (4.36 GB) | **2.70 tok/s** | **11.30 tok/s** | 58.7°C | **0.44 GiB** | [📄 R1 7B 報告](./benchmark/reports/plan2_deepseek-r1_7b_REPORT.md) |
+| **#8** | `olmo2:7b` | 7.05B (4.16 GB) | **2.59 tok/s** | **11.59 tok/s** | 58.7°C | **6.37 GiB** | [📄 OLMo2 報告](./benchmark/reports/PLAN2_FINAL_REPORT.md) |
+| **#9** | `llama3.1:8b` | 8.03B (4.58 GB) | **2.46 tok/s** | **10.69 tok/s** | 57.6°C | **0.43 GiB** | [📄 Llama 8B 報告](./benchmark/reports/plan2_llama3_1_8b_REPORT.md) |
+| **#10** | `olmo-3:7b` | 6.95B (4.16 GB) | **2.37 tok/s** | **13.90 tok/s** | 65.3°C | **8.90 GiB** | [📄 OLMo-3 報告](./benchmark/reports/plan2_olmo-3_7b_REPORT.md) |
 
 > 📊 **Plan 2 完整統整評測報告 (Master Report):** 詳見 [PLAN2_FINAL_REPORT.md](./benchmark/reports/PLAN2_FINAL_REPORT.md) 與 [plan2.md](./plan2.md)。
 

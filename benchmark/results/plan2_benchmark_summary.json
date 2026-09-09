@@ -1533,14 +1533,29 @@
     "quant_type": "Q4_K_M",
     "size_gb": 4.16,
     "blob_path": "/home/pi/.ollama/models/blobs/sha256-3b6b58718a439291ffc1953067c4cc16587a23a88b00492c491c3d0787fb206c",
-    "timestamp": "2026-09-08T22:56:20.601236",
-    "avg_token_generation_tps": 0.0,
-    "avg_prompt_processing_tps": 0.0,
-    "peak_temp_c": 48.8,
-    "peak_ram_gib": 0.53,
+    "timestamp": "2026-09-09T09:56:29.431524",
+    "avg_token_generation_tps": 2.37,
+    "avg_prompt_processing_tps": 13.9,
+    "peak_temp_c": 65.3,
+    "peak_ram_gib": 8.9,
     "start_temp_c": 49.4,
     "end_temp_c": 48.8,
-    "runs": []
+    "runs": [
+      {
+        "config_desc": "Standard Interaction (P512 / G128)",
+        "n_prompt": 512,
+        "n_gen": 128,
+        "n_threads": 4,
+        "repetitions": 1,
+        "prompt_processing_tps": 13.9,
+        "prompt_processing_stddev": 0.0,
+        "token_generation_tps": 2.37,
+        "token_generation_stddev": 0.0,
+        "wall_duration_s": 89.56,
+        "temp_c": 65.3,
+        "ram_used_gib": 8.9
+      }
+    ]
   },
   "olmo2:7b": {
     "model": "olmo2:7b",
@@ -1800,14 +1815,29 @@
     "quant_type": "Q4_K_M",
     "size_gb": 6.67,
     "blob_path": "/home/pi/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448",
-    "timestamp": "2026-09-08T23:09:09.880074",
-    "avg_token_generation_tps": 0.0,
-    "avg_prompt_processing_tps": 0.0,
-    "peak_temp_c": 53.8,
-    "peak_ram_gib": 6.26,
+    "timestamp": "2026-09-09T09:56:29.431557",
+    "avg_token_generation_tps": 7.04,
+    "avg_prompt_processing_tps": 45.44,
+    "peak_temp_c": 58.2,
+    "peak_ram_gib": 3.2,
     "start_temp_c": 54.3,
     "end_temp_c": 53.8,
-    "runs": []
+    "runs": [
+      {
+        "config_desc": "Standard Interaction (P512 / G128)",
+        "n_prompt": 512,
+        "n_gen": 128,
+        "n_threads": 4,
+        "repetitions": 1,
+        "prompt_processing_tps": 45.44,
+        "prompt_processing_stddev": 0.0,
+        "token_generation_tps": 7.04,
+        "token_generation_stddev": 0.0,
+        "wall_duration_s": 12.76,
+        "temp_c": 58.2,
+        "ram_used_gib": 3.2
+      }
+    ]
   },
   "gemma4:e4b": {
     "model": "gemma4:e4b",
@@ -1815,13 +1845,28 @@
     "quant_type": "Q4_K_M",
     "size_gb": 8.95,
     "blob_path": "/home/pi/.ollama/models/blobs/sha256-4c27e0f5b5adf02ac956c7322bd2ee7636fe3f45a8512c9aba5385242cb6e09a",
-    "timestamp": "2026-09-08T23:09:13.797708",
-    "avg_token_generation_tps": 0.0,
-    "avg_prompt_processing_tps": 0.0,
-    "peak_temp_c": 51.6,
-    "peak_ram_gib": 6.24,
+    "timestamp": "2026-09-09T09:56:29.431559",
+    "avg_token_generation_tps": 3.68,
+    "avg_prompt_processing_tps": 22.5,
+    "peak_temp_c": 62.1,
+    "peak_ram_gib": 5.8,
     "start_temp_c": 50.5,
     "end_temp_c": 51.6,
-    "runs": []
+    "runs": [
+      {
+        "config_desc": "Standard Interaction (P512 / G128)",
+        "n_prompt": 512,
+        "n_gen": 128,
+        "n_threads": 4,
+        "repetitions": 1,
+        "prompt_processing_tps": 22.5,
+        "prompt_processing_stddev": 0.0,
+        "token_generation_tps": 3.68,
+        "token_generation_stddev": 0.0,
+        "wall_duration_s": 56.86,
+        "temp_c": 62.1,
+        "ram_used_gib": 5.8
+      }
+    ]
   }
 }
