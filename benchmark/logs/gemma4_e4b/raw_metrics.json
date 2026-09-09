@@ -84,7 +84,7 @@
       "avg_prompt_tps": 53.53,
       "avg_ttft_s": 1.341,
       "avg_delta_temp_c": 4.4,
-      "sample_response": ""
+      "sample_response": "<think>\nHere's a thinking process that leads to the suggested solution:\n\n1.  **Understand the Goal:** The request is to write an *efficient* Python function to solve the Two Sum problem.\n    *   *Efficiency Requirement:* Must be $O(N)$ time complexity.\n    *   *Method Requirement:* Must use a dictionary (hash map).\n    *   *Code Quality:* Must include type hints and docstrings.\n\n2.  **Recall the Two Sum Problem:** Given an array of integers (`nums`) and a target integer (`target`), find the indices of two numbers in the array that add up to the `target`.\n\n3.  **Analyze the Naive Approach (Brute Force):**\n    *   Use nested loops: Iterate through every pair $(i, j)$ where $i \\neq j$.\n    *\n</think>"
     },
     {
       "category": "Quick Fact & Summary",
@@ -124,7 +124,7 @@
       "avg_prompt_tps": 45.61,
       "avg_ttft_s": 1.23,
       "avg_delta_temp_c": 3.85,
-      "sample_response": ""
+      "sample_response": "<think>\nHere's a thinking process to arrive at the suggested summary:\n\n1.  **Identify the core subject:** ARM Cortex-A76 microarchitecture.\n2.  **Determine the goal:** Summarize the *key architectural improvements* in 3 *concise* bullet points.\n3.  **Recall/Research A76's defining features (relative to its predecessors, like A53/A57):**\n    *   *Performance:* It was designed for high-performance computing (server/premium mobile).\n    *   *Core\n</think>"
     }
   ]
 }

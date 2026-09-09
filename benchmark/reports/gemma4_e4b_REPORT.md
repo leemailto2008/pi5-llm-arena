@@ -29,6 +29,10 @@
 
 ---
 
+---
+
+---
+
 ## 💬 測試生成範例輸出 (Sample Generated Outputs)
 
 ### 🔹 [Reasoning & Logic] Process vs Thread
@@ -64,7 +68,20 @@ A **process** is an independent instance of a running program. It is the operati
 
 **模型輸出 Response:**
 ```text
+<think>
+Here's a thinking process that leads to the suggested solution:
 
+1.  **Understand the Goal:** The request is to write an *efficient* Python function to solve the Two Sum problem.
+    *   *Efficiency Requirement:* Must be $O(N)$ time complexity.
+    *   *Method Requirement:* Must use a dictionary (hash map).
+    *   *Code Quality:* Must include type hints and docstrings.
+
+2.  **Recall the Two Sum Problem:** Given an array of integers (`nums`) and a target integer (`target`), find the indices of two numbers in the array that add up to the `target`.
+
+3.  **Analyze the Naive Approach (Brute Force):**
+    *   Use nested loops: Iterate through every pair $(i, j)$ where $i \neq j$.
+    *
+</think>
 ```
 
 ### 🔹 [Quick Fact & Summary] ARM Architecture Summary
@@ -75,5 +92,13 @@ A **process** is an independent instance of a running program. It is the operati
 
 **模型輸出 Response:**
 ```text
+<think>
+Here's a thinking process to arrive at the suggested summary:
 
+1.  **Identify the core subject:** ARM Cortex-A76 microarchitecture.
+2.  **Determine the goal:** Summarize the *key architectural improvements* in 3 *concise* bullet points.
+3.  **Recall/Research A76's defining features (relative to its predecessors, like A53/A57):**
+    *   *Performance:* It was designed for high-performance computing (server/premium mobile).
+    *   *Core
+</think>
 ```

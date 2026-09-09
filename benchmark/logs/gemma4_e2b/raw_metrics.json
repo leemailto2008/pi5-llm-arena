@@ -44,7 +44,7 @@
       "avg_prompt_tps": 92.42,
       "avg_ttft_s": 0.54,
       "avg_delta_temp_c": 4.95,
-      "sample_response": ""
+      "sample_response": "<think>\nHere's a thinking process to structure the explanation:\n\n1.  **Deconstruct the Request:**\n    *   Explain the difference between **process** and **thread** in operating systems.\n    *   Provide a **concrete example**.\n    *   Compare **memory isolation**.\n\n2.  **Define Process vs. Thread (The Core Concepts):**\n    *   *Process:* An independent execution environment. It owns resources (memory space, files, etc.). It's heavy.\n    *   *Thread:* A path of execution *within* a process. It's a unit of CPU utilization. Threads share the process's resources. It's lightweight.\n\n3.  **Analogy/Relationship (Setting the Stage):**\n    *   A good analogy is crucial. (Process = House/Application; Thread = Person\n</think>"
     },
     {
       "category": "Coding & Algorithm",
@@ -84,7 +84,7 @@
       "avg_prompt_tps": 111.21,
       "avg_ttft_s": 0.638,
       "avg_delta_temp_c": 4.95,
-      "sample_response": ""
+      "sample_response": "<think>\nThinking Process:\n\n1.  **Understand the Goal:** The request is to solve the \"Two Sum\" problem efficiently (O(N) time complexity) using a dictionary (hash map).\n2.  **Understand Two Sum:** Given an array of integers (`nums`) and a target sum (`target`), find the indices of the two numbers that add up to the target.\n3.  **Determine the Strategy (O(N) with Dictionary):**\n    *   If we iterate through the array, for each number `x`, we need to quickly check if the required complement (`target - x`) exists in the array.\n    *   A dictionary (hash map) allows O(1) average time lookup.\n    *   *The core idea:* Iterate through the array once. For each element `nums[i]`, calculate the `complement\n</think>"
     },
     {
       "category": "Quick Fact & Summary",
@@ -124,7 +124,7 @@
       "avg_prompt_tps": 93.86,
       "avg_ttft_s": 0.579,
       "avg_delta_temp_c": 3.6,
-      "sample_response": ""
+      "sample_response": "<think>\n1.  **Analyze the Request:** The user wants a summary of the *key architectural improvements* of the ARM Cortex-A76 microarchitecture, presented in *3 concise bullet points*.\n\n2.  **Identify the Subject (Cortex-A76):** The A76 is a high-performance, high-efficiency CPU core, typically found in server and high-end mobile applications. It belongs to the \"big.LITTLE\" or high-performance segment.\n\n3.  **Recall/Research Key Architectural Improvements (A76 vs. predecessors\n</think>"
     }
   ]
 }

@@ -29,6 +29,10 @@
 
 ---
 
+---
+
+---
+
 ## 💬 測試生成範例輸出 (Sample Generated Outputs)
 
 ### 🔹 [Reasoning & Logic] Process vs Thread
@@ -39,7 +43,21 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Here's a thinking process to structure the explanation:
 
+1.  **Deconstruct the Request:**
+    *   Explain the difference between **process** and **thread** in operating systems.
+    *   Provide a **concrete example**.
+    *   Compare **memory isolation**.
+
+2.  **Define Process vs. Thread (The Core Concepts):**
+    *   *Process:* An independent execution environment. It owns resources (memory space, files, etc.). It's heavy.
+    *   *Thread:* A path of execution *within* a process. It's a unit of CPU utilization. Threads share the process's resources. It's lightweight.
+
+3.  **Analogy/Relationship (Setting the Stage):**
+    *   A good analogy is crucial. (Process = House/Application; Thread = Person
+</think>
 ```
 
 ### 🔹 [Coding & Algorithm] Two Sum Algorithm
@@ -50,7 +68,16 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Thinking Process:
 
+1.  **Understand the Goal:** The request is to solve the "Two Sum" problem efficiently (O(N) time complexity) using a dictionary (hash map).
+2.  **Understand Two Sum:** Given an array of integers (`nums`) and a target sum (`target`), find the indices of the two numbers that add up to the target.
+3.  **Determine the Strategy (O(N) with Dictionary):**
+    *   If we iterate through the array, for each number `x`, we need to quickly check if the required complement (`target - x`) exists in the array.
+    *   A dictionary (hash map) allows O(1) average time lookup.
+    *   *The core idea:* Iterate through the array once. For each element `nums[i]`, calculate the `complement
+</think>
 ```
 
 ### 🔹 [Quick Fact & Summary] ARM Architecture Summary
@@ -61,5 +88,11 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+1.  **Analyze the Request:** The user wants a summary of the *key architectural improvements* of the ARM Cortex-A76 microarchitecture, presented in *3 concise bullet points*.
 
+2.  **Identify the Subject (Cortex-A76):** The A76 is a high-performance, high-efficiency CPU core, typically found in server and high-end mobile applications. It belongs to the "big.LITTLE" or high-performance segment.
+
+3.  **Recall/Research Key Architectural Improvements (A76 vs. predecessors
+</think>
 ```

@@ -29,6 +29,10 @@
 
 ---
 
+---
+
+---
+
 ## 💬 測試生成範例輸出 (Sample Generated Outputs)
 
 ### 🔹 [Reasoning & Logic] Process vs Thread
@@ -39,7 +43,13 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, so I need to explain the difference between process and thread in operating systems, give a concrete example, and compare memory isolation. Hmm, I remember that both processes and threads are related to how tasks are managed, but I'm a bit fuzzy on the details. Let me try to break this down.
 
+First, I think processes are like the main tasks that the OS runs. They handle everything, right? So when I open a browser, the browser is a process. It runs the web server and the browser's application. But wait, what about the actual browser itself? Is that a process or a thread? I'm not sure. Maybe the browser is a process because it's a single task, but the user interface is a thread. That makes sense because the UI is a smaller part that runs in parallel.
+
+Then there are threads. I believe threads are smaller units of
+</think>
 ```
 
 ### 🔹 [Coding & Algorithm] Two Sum Algorithm
@@ -50,7 +60,15 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, I need to write a Python function to solve the Two Sum problem with O(N) time complexity using a dictionary. Let me think about how to approach this.
 
+First, the Two Sum problem is about finding two distinct elements in an array that add up to a target value. The goal is to return their indices. The user wants the solution to be efficient, specifically O(N) time complexity, which suggests that using a dictionary to store seen elements and their indices is the way to go.
+
+So, the plan is: iterate through each element in the array, for each element, check if the complement (target - current element) exists in the dictionary of seen elements. If it does, return the indices of the two elements. If not, add the current element and its index to the dictionary.
+
+Wait, but the user also mentioned including type hints and a docstring. So
+</think>
 ```
 
 ### 🔹 [Quick Fact & Summary] ARM Architecture Summary
@@ -61,5 +79,9 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, so I need to summarize the key architectural improvements of the ARM Cortex-A76 microarchitecture in three concise bullet points. I'm not super familiar with the details, but I know it's an improvement over the previous Cortex-A5, which was a big deal. Let me think through this step by step.
 
+First, I remember that the Cortex-A5 had a lot of features, but it was a bit limited. The Cortex-A76 is supposed to be more advanced. I think it introduced some new features that made it better for certain tasks. Maybe it's faster or
+</think>
 ```

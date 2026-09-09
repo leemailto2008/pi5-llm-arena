@@ -29,6 +29,10 @@
 
 ---
 
+---
+
+---
+
 ## 💬 測試生成範例輸出 (Sample Generated Outputs)
 
 ### 🔹 [Reasoning & Logic] Process vs Thread
@@ -39,7 +43,13 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, so I need to explain the difference between processes and threads in operating systems. Hmm, let me start by recalling what I know. 
 
+First, processes. I think a process is like an instance of a program running on the system. Like, if you have multiple applications open, each one is a process. They have their own memory space, right? So each process gets its own address space, which means they can't directly access each other's memory. That's probably memory isolation for processes.
+
+Then threads. A thread is a flow of control within a single process. So one process can have multiple threads, each executing different parts of the same program. For example, a web browser might have a main thread handling the UI and then separate threads for loading images or handling clicks. Threads share the same memory space as their parent process, so they can communicate more easily but might not have
+</think>
 ```
 
 ### 🔹 [Coding & Algorithm] Two Sum Algorithm
@@ -50,7 +60,11 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, I need to write an efficient Python function for the Two Sum problem that runs in O(N) time using a dictionary. Let me think about how the Two Sum problem works. The task is to find two numbers in an array that add up to a target and return their indices. The brute force approach is O(N^2), which is too slow. So the optimal way is to use a hash map or dictionary to store the values and their indices as we iterate through the list. That way, for each element, we can check if the complement (target - current element) exists in the dictionary in constant time.
 
+Hmm, right. So the plan is: loop through each element in the array. For each element, calculate the complement (target - num). Then check if the complement is already in the dictionary. If it is, return the current index and the stored index of the
+</think>
 ```
 
 ### 🔹 [Quick Fact & Summary] ARM Architecture Summary
@@ -61,5 +75,9 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, I need to summarize the key architectural improvements of the ARM Cortex-A76 microarchitecture in three concise bullet points. Let me start by recalling what I know about the Cortex-A series. The A76 is part of the ARMv8-A family, right? It's an evolution from previous cores like the A72 or A75. 
 
+First, I remember that performance is often a big focus in new CPU designs. Maybe the A76 has improved performance through better instruction decoding or execution units. Wait, I think it introduced a new superscalar architecture. Superscalar means multiple instructions can be
+</think>
 ```

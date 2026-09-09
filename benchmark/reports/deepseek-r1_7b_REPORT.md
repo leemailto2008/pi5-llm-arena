@@ -29,6 +29,10 @@
 
 ---
 
+---
+
+---
+
 ## 💬 測試生成範例輸出 (Sample Generated Outputs)
 
 ### 🔹 [Reasoning & Logic] Process vs Thread
@@ -39,7 +43,13 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, so I need to explain the difference between processes and threads in operating systems. Hmm, I remember from my studies that both are related to multitasking, but I'm a bit fuzzy on the exact distinctions. Let me try to break it down.
 
+First, processes. I think a process is like a running instance of a program. So if I run a program, it creates a process. Each process has its own state, like a program counter and registers. They can be scheduled by the OS to run different parts of the program or switch between programs. Processes are like separate units of execution.
+
+Then there are threads. I believe threads are subdivisions within a process. They allow a single process to handle multiple tasks concurrently by using a technique called multitasking. So a thread is like a lightweight version of a process but shares the same address space. That means they can access the same
+</think>
 ```
 
 ### 🔹 [Coding & Algorithm] Two Sum Algorithm
@@ -50,7 +60,15 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, I need to write an efficient Python function to solve the Two Sum problem with O(N) time complexity using a dictionary. Hmm, let's think about how to approach this.
 
+First, I remember that the Two Sum problem is about finding two distinct elements in an array that add up to a specific target. The function should return the indices of these two numbers. Oh right, and the solution needs to be O(N) time, which suggests using a hash map or dictionary to keep track of the numbers we've seen so far.
+
+So, the plan is to iterate through the array once. For each element, I'll check if the complement (target minus current number) exists in the dictionary. If it does, then I've found the two numbers, and I can return their indices. If not, I'll add the current number and its index to the dictionary.
+
+Wait,
+</think>
 ```
 
 ### 🔹 [Quick Fact & Summary] ARM Architecture Summary
@@ -61,5 +79,9 @@
 
 **模型輸出 Response:**
 ```text
+<think>
+Okay, so I need to summarize the key architectural improvements of the ARM Cortex-A76 microarchitecture in three concise bullet points. I'm not super familiar with ARM's latest architectures, but I know they often focus on performance, power efficiency, and other optimizations. Let me try to break this down.
 
+First, I remember that ARM frequently talks about performance improvements in their latest cores. Maybe the A76 has something to do with that. I think they might have introduced a new instruction or a way to handle instructions more efficiently. Oh, right, I've heard terms like "scalar
+</think>
 ```
