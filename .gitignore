@@ -4,6 +4,10 @@ note1.txt
 plan1.md
 plan2.md
 
+# Ignore large Ollama model backup files
+raspi5_ollama_backup/
+
+
 
 
 
