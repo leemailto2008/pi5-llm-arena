@@ -1,0 +1,78 @@
+[
+  {
+    "model": "deepseek-r1:1.5b",
+    "category": "Discrete Mathematics & Pigeonhole Proof",
+    "prompt_tokens": 43,
+    "eval_tokens": 150,
+    "total_duration_s": 30.92,
+    "load_duration_s": 17.75,
+    "eval_rate_tok_per_sec": 11.96,
+    "prompt_eval_rate_tok_per_sec": 69.5,
+    "before_telemetry": {
+      "temp": "46.6'C",
+      "ram": "12651MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.1'C",
+      "ram": "14269MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:1.5b-opt",
+    "category": "Discrete Mathematics & Pigeonhole Proof",
+    "prompt_tokens": 64,
+    "eval_tokens": 150,
+    "total_duration_s": 17.11,
+    "load_duration_s": 3.51,
+    "eval_rate_tok_per_sec": 11.8,
+    "prompt_eval_rate_tok_per_sec": 73.44,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "14286MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "14262MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:1.5b",
+    "category": "Dynamic Programming & Memory Efficiency",
+    "prompt_tokens": 60,
+    "eval_tokens": 150,
+    "total_duration_s": 16.6,
+    "load_duration_s": 3.38,
+    "eval_rate_tok_per_sec": 12.08,
+    "prompt_eval_rate_tok_per_sec": 74.47,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "14283MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "14261MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:1.5b-opt",
+    "category": "Dynamic Programming & Memory Efficiency",
+    "prompt_tokens": 81,
+    "eval_tokens": 150,
+    "total_duration_s": 16.86,
+    "load_duration_s": 3.13,
+    "eval_rate_tok_per_sec": 11.89,
+    "prompt_eval_rate_tok_per_sec": 73.3,
+    "before_telemetry": {
+      "temp": "51.6'C",
+      "ram": "14273MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.1'C",
+      "ram": "14287MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  }
+]

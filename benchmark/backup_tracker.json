@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-09-15 10:09:39",
+  "timestamp_epoch": 1789438179.8038585,
+  "total_downloaded_bytes": 45068239904,
+  "total_target_bytes": 45068239904,
+  "total_downloaded_str": "41.97 GB",
+  "total_target_str": "41.97 GB",
+  "overall_percent": 100.0,
+  "speed_mb_s": 0.0,
+  "speed_kb_s": 0.0,
+  "completed_count": 10,
+  "total_models": 10,
+  "all_done": true,
+  "active_model": null,
+  "models": [
+    {
+      "name": "deepseek-r1:1.5b",
+      "current_size": 1117320512,
+      "target_size": 1117320512,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "qwen2.5:3b",
+      "current_size": 1929903008,
+      "target_size": 1929903008,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "llama3.2:3b",
+      "current_size": 2019377376,
+      "target_size": 2019377376,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "olmo2:7b",
+      "current_size": 4471999712,
+      "target_size": 4471999712,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "olmo-3:7b",
+      "current_size": 4472020256,
+      "target_size": 4472020256,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "deepseek-r1:7b",
+      "current_size": 4683073184,
+      "target_size": 4683073184,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "qwen2.5-coder:7b",
+      "current_size": 4683074048,
+      "target_size": 4683074048,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "llama3.1:8b",
+      "current_size": 4920738944,
+      "target_size": 4920738944,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "gemma4:e2b",
+      "current_size": 7162394016,
+      "target_size": 7162394016,
+      "percent": 100.0,
+      "status": "done"
+    },
+    {
+      "name": "gemma4:e4b",
+      "current_size": 9608338848,
+      "target_size": 9608338848,
+      "percent": 100.0,
+      "status": "done"
+    }
+  ]
+}

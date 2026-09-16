@@ -1,0 +1,78 @@
+[
+  {
+    "model": "deepseek-r1:7b",
+    "category": "Algorithmic & Mathematical Reasoning",
+    "prompt_tokens": 50,
+    "eval_tokens": 150,
+    "total_duration_s": 125.3,
+    "load_duration_s": 64.18,
+    "eval_rate_tok_per_sec": 2.64,
+    "prompt_eval_rate_tok_per_sec": 11.44,
+    "before_telemetry": {
+      "temp": "46.1'C",
+      "ram": "10258MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "10835MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:7b-opt",
+    "category": "Algorithmic & Mathematical Reasoning",
+    "prompt_tokens": 76,
+    "eval_tokens": 150,
+    "total_duration_s": 72.69,
+    "load_duration_s": 12.38,
+    "eval_rate_tok_per_sec": 2.75,
+    "prompt_eval_rate_tok_per_sec": 13.03,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "10830MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "56.5'C",
+      "ram": "10819MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:7b",
+    "category": "Edge Logic & Self-Correction",
+    "prompt_tokens": 38,
+    "eval_tokens": 150,
+    "total_duration_s": 66.75,
+    "load_duration_s": 9.5,
+    "eval_rate_tok_per_sec": 2.78,
+    "prompt_eval_rate_tok_per_sec": 11.79,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "10820MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "58.7'C",
+      "ram": "10837MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "deepseek-r1:7b-opt",
+    "category": "Edge Logic & Self-Correction",
+    "prompt_tokens": 64,
+    "eval_tokens": 150,
+    "total_duration_s": 69.62,
+    "load_duration_s": 10.75,
+    "eval_rate_tok_per_sec": 2.78,
+    "prompt_eval_rate_tok_per_sec": 13.22,
+    "before_telemetry": {
+      "temp": "52.1'C",
+      "ram": "10835MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "56.0'C",
+      "ram": "10826MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  }
+]

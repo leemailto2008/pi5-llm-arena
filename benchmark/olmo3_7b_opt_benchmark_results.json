@@ -1,0 +1,78 @@
+[
+  {
+    "model": "olmo-3:7b",
+    "category": "Academic Synthesis & Open Methodology",
+    "prompt_tokens": 95,
+    "eval_tokens": 150,
+    "total_duration_s": 134.75,
+    "load_duration_s": 68.77,
+    "eval_rate_tok_per_sec": 2.56,
+    "prompt_eval_rate_tok_per_sec": 12.69,
+    "before_telemetry": {
+      "temp": "44.4'C",
+      "ram": "10796MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "58.7'C",
+      "ram": "9106MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "olmo-3:7b-opt",
+    "category": "Academic Synthesis & Open Methodology",
+    "prompt_tokens": 94,
+    "eval_tokens": 150,
+    "total_duration_s": 83.26,
+    "load_duration_s": 21.89,
+    "eval_rate_tok_per_sec": 2.75,
+    "prompt_eval_rate_tok_per_sec": 13.69,
+    "before_telemetry": {
+      "temp": "51.6'C",
+      "ram": "9104MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "9174MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "olmo-3:7b",
+    "category": "Analytical Logic & Evidence Verification",
+    "prompt_tokens": 88,
+    "eval_tokens": 150,
+    "total_duration_s": 75.36,
+    "load_duration_s": 15.03,
+    "eval_rate_tok_per_sec": 2.77,
+    "prompt_eval_rate_tok_per_sec": 14.2,
+    "before_telemetry": {
+      "temp": "48.3'C",
+      "ram": "9172MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "9171MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "olmo-3:7b-opt",
+    "category": "Analytical Logic & Evidence Verification",
+    "prompt_tokens": 87,
+    "eval_tokens": 150,
+    "total_duration_s": 71.46,
+    "load_duration_s": 10.51,
+    "eval_rate_tok_per_sec": 2.75,
+    "prompt_eval_rate_tok_per_sec": 13.43,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "9176MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "44.4'C",
+      "ram": "9186MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  }
+]

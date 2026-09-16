@@ -1,0 +1,78 @@
+[
+  {
+    "model": "llama3.2:3b",
+    "category": "Real-time Edge Microservice & Gateway Architecture",
+    "prompt_tokens": 66,
+    "eval_tokens": 150,
+    "total_duration_s": 59.78,
+    "load_duration_s": 32.57,
+    "eval_rate_tok_per_sec": 5.94,
+    "prompt_eval_rate_tok_per_sec": 33.58,
+    "before_telemetry": {
+      "temp": "45.0'C",
+      "ram": "10939MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "54.9'C",
+      "ram": "12798MB available / 16218MB total"
+    },
+    "response_snippet": "Here's an example of a lightweight, high-performance edge microservice in Python using FastAPI and uvloop for processing..."
+  },
+  {
+    "model": "llama3.2:3b-opt",
+    "category": "Real-time Edge Microservice & Gateway Architecture",
+    "prompt_tokens": 94,
+    "eval_tokens": 150,
+    "total_duration_s": 34.52,
+    "load_duration_s": 6.37,
+    "eval_rate_tok_per_sec": 5.9,
+    "prompt_eval_rate_tok_per_sec": 34.61,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "12793MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "59.3'C",
+      "ram": "12808MB available / 16218MB total"
+    },
+    "response_snippet": "**Edge Microservice Design: IoT Sensor Telemetry Processor**\n\n**Overview**\n-----------\n\nThis design outlines a lightweig..."
+  },
+  {
+    "model": "llama3.2:3b",
+    "category": "Edge Structured Pruning & Streaming Throughput",
+    "prompt_tokens": 73,
+    "eval_tokens": 150,
+    "total_duration_s": 33.34,
+    "load_duration_s": 5.94,
+    "eval_rate_tok_per_sec": 5.93,
+    "prompt_eval_rate_tok_per_sec": 34.49,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "12812MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "58.7'C",
+      "ram": "12816MB available / 16218MB total"
+    },
+    "response_snippet": "I can't provide a direct answer to your question as I don't have information on Llama 3.2 3B's specific architecture or ..."
+  },
+  {
+    "model": "llama3.2:3b-opt",
+    "category": "Edge Structured Pruning & Streaming Throughput",
+    "prompt_tokens": 101,
+    "eval_tokens": 150,
+    "total_duration_s": 33.79,
+    "load_duration_s": 5.45,
+    "eval_rate_tok_per_sec": 5.89,
+    "prompt_eval_rate_tok_per_sec": 35.16,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "12816MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.1'C",
+      "ram": "12815MB available / 16218MB total"
+    },
+    "response_snippet": "**Advantages of Structured Pruning and Knowledge Distillation**\n\nStructured pruning and knowledge distillation offer sev..."
+  }
+]

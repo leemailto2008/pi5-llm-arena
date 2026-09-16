@@ -1,0 +1,78 @@
+[
+  {
+    "model": "gemma4:e2b",
+    "category": "Embedded Robotics & Low-Latency Vision Pipeline",
+    "prompt_tokens": 61,
+    "eval_tokens": 150,
+    "total_duration_s": 60.57,
+    "load_duration_s": 38.46,
+    "eval_rate_tok_per_sec": 7.24,
+    "prompt_eval_rate_tok_per_sec": 44.01,
+    "before_telemetry": {
+      "temp": "46.1'C",
+      "ram": "13248MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "12659MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e2b-opt",
+    "category": "Embedded Robotics & Low-Latency Vision Pipeline",
+    "prompt_tokens": 87,
+    "eval_tokens": 150,
+    "total_duration_s": 28.77,
+    "load_duration_s": 6.66,
+    "eval_rate_tok_per_sec": 7.45,
+    "prompt_eval_rate_tok_per_sec": 44.18,
+    "before_telemetry": {
+      "temp": "50.5'C",
+      "ram": "12665MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "55.4'C",
+      "ram": "12648MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e2b",
+    "category": "Extreme Edge Pruning & Cross-Layer Distillation",
+    "prompt_tokens": 64,
+    "eval_tokens": 150,
+    "total_duration_s": 27.35,
+    "load_duration_s": 6.34,
+    "eval_rate_tok_per_sec": 7.64,
+    "prompt_eval_rate_tok_per_sec": 46.73,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "12648MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "55.4'C",
+      "ram": "12653MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e2b-opt",
+    "category": "Extreme Edge Pruning & Cross-Layer Distillation",
+    "prompt_tokens": 90,
+    "eval_tokens": 150,
+    "total_duration_s": 28.11,
+    "load_duration_s": 6.34,
+    "eval_rate_tok_per_sec": 7.58,
+    "prompt_eval_rate_tok_per_sec": 45.63,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "12655MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "59.8'C",
+      "ram": "12652MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  }
+]

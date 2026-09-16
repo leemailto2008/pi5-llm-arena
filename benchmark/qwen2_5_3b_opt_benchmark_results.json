@@ -1,0 +1,78 @@
+[
+  {
+    "model": "qwen2.5:3b",
+    "category": "繁體中文系統工程與架構決策 (Traditional Chinese Engineering)",
+    "prompt_tokens": 117,
+    "eval_tokens": 150,
+    "total_duration_s": 60.55,
+    "load_duration_s": 31.27,
+    "eval_rate_tok_per_sec": 5.79,
+    "prompt_eval_rate_tok_per_sec": 34.78,
+    "before_telemetry": {
+      "temp": "46.1'C",
+      "ram": "12799MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "13267MB available / 16218MB total"
+    },
+    "response_snippet": "在部署 Redis Queue (RQ) 和 FastAPI 邊緣閘道於 Raspberry Pi 5 上時，您需要考慮到多個關鍵因素，特別是 CPU 調度器的優化、LPDDR4X 記憶體頻寬的限制，以及熱節流現象，這些都會影響系統的效能表..."
+  },
+  {
+    "model": "qwen2.5:3b-opt",
+    "category": "繁體中文系統工程與架構決策 (Traditional Chinese Engineering)",
+    "prompt_tokens": 149,
+    "eval_tokens": 150,
+    "total_duration_s": 35.05,
+    "load_duration_s": 5.53,
+    "eval_rate_tok_per_sec": 5.93,
+    "prompt_eval_rate_tok_per_sec": 35.27,
+    "before_telemetry": {
+      "temp": "49.4'C",
+      "ram": "13272MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "51.0'C",
+      "ram": "13275MB available / 16218MB total"
+    },
+    "response_snippet": "在部署 Redis Queue (RQ) 和 FastAPI 臍邊閘道於 Raspberry Pi 5 上時，需考慮 CPU 調度器、LPDDR4X 記憶體頻寬與熱節流三方面效能瓶頸。\n\n### CPU 調度器\n\n**CPU 調度器**: ..."
+  },
+  {
+    "model": "qwen2.5:3b",
+    "category": "High-Concurrency Edge Networking & Memory Optimization",
+    "prompt_tokens": 73,
+    "eval_tokens": 150,
+    "total_duration_s": 32.02,
+    "load_duration_s": 4.92,
+    "eval_rate_tok_per_sec": 6.01,
+    "prompt_eval_rate_tok_per_sec": 34.24,
+    "before_telemetry": {
+      "temp": "48.8'C",
+      "ram": "13273MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.1'C",
+      "ram": "13283MB available / 16218MB total"
+    },
+    "response_snippet": "To understand how GQA 8:1 in Qwen2.5 3B reduces KV-cache memory bandwidth consumption on ARM Cortex-A76 during streaming..."
+  },
+  {
+    "model": "qwen2.5:3b-opt",
+    "category": "High-Concurrency Edge Networking & Memory Optimization",
+    "prompt_tokens": 105,
+    "eval_tokens": 150,
+    "total_duration_s": 33.06,
+    "load_duration_s": 4.9,
+    "eval_rate_tok_per_sec": 5.96,
+    "prompt_eval_rate_tok_per_sec": 35.13,
+    "before_telemetry": {
+      "temp": "49.9'C",
+      "ram": "13284MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "58.7'C",
+      "ram": "13275MB available / 16218MB total"
+    },
+    "response_snippet": "GQA 8:1 在 Qwen2.5 3B 中如何減少 ARM Cortex-A76 上的 Key-Value (KV) 缓存記憶體帶寬消耗，與標準 MHA 相比，在流式推理期間提供了理論上的記憶體計算說明。\n\n**英文對照：**\nGQA 8..."
+  }
+]

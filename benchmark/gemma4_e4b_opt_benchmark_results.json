@@ -1,0 +1,78 @@
+[
+  {
+    "model": "gemma4:e4b",
+    "category": "Edge Multimodal Architecture & IoT Vision",
+    "prompt_tokens": 63,
+    "eval_tokens": 150,
+    "total_duration_s": 103.2,
+    "load_duration_s": 61.35,
+    "eval_rate_tok_per_sec": 3.86,
+    "prompt_eval_rate_tok_per_sec": 20.95,
+    "before_telemetry": {
+      "temp": "43.9'C",
+      "ram": "9178MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.6'C",
+      "ram": "10940MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e4b-opt",
+    "category": "Edge Multimodal Architecture & IoT Vision",
+    "prompt_tokens": 88,
+    "eval_tokens": 150,
+    "total_duration_s": 53.5,
+    "load_duration_s": 10.75,
+    "eval_rate_tok_per_sec": 3.86,
+    "prompt_eval_rate_tok_per_sec": 22.66,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "10937MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "54.9'C",
+      "ram": "10920MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e4b",
+    "category": "Per-Layer Embeddings (PLE) Parameter Efficiency",
+    "prompt_tokens": 55,
+    "eval_tokens": 150,
+    "total_duration_s": 50.22,
+    "load_duration_s": 9.13,
+    "eval_rate_tok_per_sec": 3.9,
+    "prompt_eval_rate_tok_per_sec": 20.77,
+    "before_telemetry": {
+      "temp": "51.0'C",
+      "ram": "10919MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "58.7'C",
+      "ram": "10948MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  },
+  {
+    "model": "gemma4:e4b-opt",
+    "category": "Per-Layer Embeddings (PLE) Parameter Efficiency",
+    "prompt_tokens": 80,
+    "eval_tokens": 150,
+    "total_duration_s": 51.42,
+    "load_duration_s": 9.14,
+    "eval_rate_tok_per_sec": 3.87,
+    "prompt_eval_rate_tok_per_sec": 22.76,
+    "before_telemetry": {
+      "temp": "50.5'C",
+      "ram": "10941MB available / 16218MB total"
+    },
+    "after_telemetry": {
+      "temp": "57.1'C",
+      "ram": "10927MB available / 16218MB total"
+    },
+    "response_snippet": "..."
+  }
+]
