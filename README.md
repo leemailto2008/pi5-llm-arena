@@ -101,6 +101,7 @@
 
 > 📊 **優化前後全維度量化深度對比總表 (Master Comparison):** 詳見 [optimization_comparison_table.md](./paper/optimization_comparison_table.md)。  
 > 📑 **10 大模型論文研讀與選型指南專區 (Paper Compendium):** 詳見 [paper/README.md](./paper/README.md) 與 [10_models_comparison_matrix.md](./paper/10_models_comparison_matrix.md)。  
+> 🎓 **學術論文選題與頂級文獻調研 (Research Topics & Survey):** 詳見 [surveyPaperTopic.md](./paper/surveyPaperTopic.md)。  
 > 🛠️ **模型極限調優工程手冊 (Optimization Guide):** 詳見 [model_optimization_guide.md](./paper/model_optimization_guide.md)。
 
 
@@ -148,6 +149,7 @@ pi5-llm-arena/
 ├── requirements.txt                    # Python 相依套件
 ├── paper/                              # 📚 10 大模型論文研讀、優化比較大表與實測報告庫
 │   ├── README.md                       # 論文研讀與選型指南總覽
+│   ├── surveyPaperTopic.md             # 🎓 頂會級論文題目深度調研與 10 篇高引文獻綜述
 │   ├── 10_models_comparison_matrix.md  # 規格/機制/數據/特性 四維深度橫向比較矩陣
 │   ├── optimization_comparison_table.md# ⚡ 優化前後全維度量化實測對比大表 (Plan 3)
 │   ├── model_optimization_guide.md     # 五大工程極限調優手段指引

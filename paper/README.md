@@ -5,6 +5,7 @@
 > [!TIP]
 > - **全維度深度比較表專文**：橫跨「模型規格參數 / 創新機制 / 訓練管線與數據 / 特性剖析」之橫向對比大表，請參閱 [10_models_comparison_matrix.md](./10_models_comparison_matrix.md)。
 > - **優化前後全維度量化對比表 (Before vs. After Matrix)**：查閱 10 款模型調優前後的輸入處理速度、生成吞吐、冷啟動縮減與可用 RAM 總對比，請參閱 [optimization_comparison_table.md](./optimization_comparison_table.md)。
+> - **學術論文選題與高引文獻調研 (Research Paper Topics & Survey)**：聚焦系統頂會 (MLSys, MobiSys, DAC) 之四大原創架構題目與 10 篇全球頂級論文，請參閱 [surveyPaperTopic.md](./surveyPaperTopic.md)。
 > - **邊緣模型極限優化指南**：五大工程調優手段 (投機解碼、iMatrix 量化、KV 快取壓縮、CPU 頻率鎖定、LoRA)，請參閱 [model_optimization_guide.md](./model_optimization_guide.md)。
 
 > - **實測優化驗證報告 (Live Verification Reports)**：
